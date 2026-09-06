@@ -33,6 +33,14 @@ const REGIONAL = {
   kr: "asia", jp1: "asia",
 };
 
+// Display names for league-v4 queueTypes. An unrecognized queueType (Riot
+// adding a new one) falls back to its raw string rather than being dropped,
+// so a new queue shows up labeled oddly instead of silently vanishing.
+const QUEUE_LABELS = {
+  RANKED_SOLO_5x5: "Solo/Duo",
+  RANKED_FLEX_SR: "Flex",
+};
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function riot(url) {
@@ -86,20 +94,33 @@ async function lookup({ docId, gameName, tagLine, platform }) {
     return { docId, gameName, tagLine, error: `league lookup ${league.status}` };
   }
 
-  const solo = league.data.find((e) => e.queueType === "RANKED_SOLO_5x5");
-  if (!solo) {
-    return { docId, gameName, tagLine, tier: "UNRANKED", division: "", leaguePoints: 0, winRate: null };
-  }
+  // "ranks" carries every queue Riot actually returned an entry for — a
+  // queue the account has never queued into (usually Flex) just isn't in
+  // league.data, so it isn't in this array either. The top-level
+  // tier/division/leaguePoints/winRate mirror Solo/Duo specifically, kept
+  // for sorting and the summary stats, which only ever cared about the
+  // primary queue.
+  const toRank = (e) => ({
+    queueType: e.queueType,
+    label: QUEUE_LABELS[e.queueType] || e.queueType,
+    tier: e.tier,
+    division: e.rank,
+    leaguePoints: e.leaguePoints,
+    winRate: Math.round((e.wins / (e.wins + e.losses)) * 100),
+  });
 
-  const winRate = Math.round((solo.wins / (solo.wins + solo.losses)) * 100);
+  const ranks = league.data.map(toRank);
+  const solo = league.data.find((e) => e.queueType === "RANKED_SOLO_5x5");
+
   return {
     docId,
     gameName,
     tagLine,
-    tier: solo.tier,
-    division: solo.rank,
-    leaguePoints: solo.leaguePoints,
-    winRate,
+    tier: solo ? solo.tier : "UNRANKED",
+    division: solo ? solo.rank : "",
+    leaguePoints: solo ? solo.leaguePoints : 0,
+    winRate: solo ? Math.round((solo.wins / (solo.wins + solo.losses)) * 100) : null,
+    ranks,
   };
 }
 
