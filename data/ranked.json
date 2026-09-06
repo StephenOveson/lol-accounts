@@ -1,0 +1,59 @@
+{
+  "fetchedAt": "2026-09-06T19:26:31.350Z",
+  "accounts": [
+    {
+      "docId": "dj-foehammer",
+      "gameName": "DJ Foehammer",
+      "tagLine": "NA1",
+      "tier": "EMERALD",
+      "division": "III",
+      "leaguePoints": 21,
+      "winRate": 52
+    },
+    {
+      "docId": "spiritbr8ker",
+      "gameName": "spiritbr8ker",
+      "tagLine": "NA1",
+      "tier": "DIAMOND",
+      "division": "I",
+      "leaguePoints": 47,
+      "winRate": 52
+    },
+    {
+      "docId": "nomessnofuss",
+      "gameName": "NoMessNofuss",
+      "tagLine": "1329",
+      "tier": "UNRANKED",
+      "division": "",
+      "leaguePoints": 0,
+      "winRate": null
+    },
+    {
+      "docId": "mrs-deesenutz",
+      "gameName": "Mrs Deesenutz",
+      "tagLine": "NA1",
+      "tier": "UNRANKED",
+      "division": "",
+      "leaguePoints": 0,
+      "winRate": null
+    },
+    {
+      "docId": "spiritb4ker",
+      "gameName": "spiritb4ker",
+      "tagLine": "NA1",
+      "tier": "EMERALD",
+      "division": "I",
+      "leaguePoints": 75,
+      "winRate": 49
+    },
+    {
+      "docId": "grabpatch",
+      "gameName": "grabpatch",
+      "tagLine": "NA1",
+      "tier": "DIAMOND",
+      "division": "IV",
+      "leaguePoints": 79,
+      "winRate": 59
+    }
+  ]
+}
