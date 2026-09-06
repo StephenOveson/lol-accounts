@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-06T19:33:16.343Z",
+  "fetchedAt": "2026-09-06T21:42:52.889Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -8,7 +8,17 @@
       "tier": "EMERALD",
       "division": "III",
       "leaguePoints": 21,
-      "winRate": 52
+      "winRate": 52,
+      "ranks": [
+        {
+          "queueType": "RANKED_SOLO_5x5",
+          "label": "Solo/Duo",
+          "tier": "EMERALD",
+          "division": "III",
+          "leaguePoints": 21,
+          "winRate": 52
+        }
+      ]
     },
     {
       "docId": "spiritbr8ker",
@@ -17,7 +27,41 @@
       "tier": "DIAMOND",
       "division": "I",
       "leaguePoints": 47,
-      "winRate": 52
+      "winRate": 52,
+      "ranks": [
+        {
+          "queueType": "RANKED_SOLO_5x5",
+          "label": "Solo/Duo",
+          "tier": "DIAMOND",
+          "division": "I",
+          "leaguePoints": 47,
+          "winRate": 52
+        },
+        {
+          "queueType": "RANKED_FLEX_SR",
+          "label": "Flex",
+          "tier": "DIAMOND",
+          "division": "IV",
+          "leaguePoints": 52,
+          "winRate": 50
+        },
+        {
+          "queueType": "JADE_RANKED_SOLO_5x5",
+          "label": "JADE_RANKED_SOLO_5x5",
+          "tier": "SALT",
+          "division": "III",
+          "leaguePoints": 1,
+          "winRate": 33
+        },
+        {
+          "queueType": "RANKED_PREMADE_5x5",
+          "label": "RANKED_PREMADE_5x5",
+          "tier": "DIAMOND",
+          "division": "III",
+          "leaguePoints": 76,
+          "winRate": 71
+        }
+      ]
     },
     {
       "docId": "nomessnofuss",
@@ -26,7 +70,8 @@
       "tier": "UNRANKED",
       "division": "",
       "leaguePoints": 0,
-      "winRate": null
+      "winRate": null,
+      "ranks": []
     },
     {
       "docId": "mrs-deesenutz",
@@ -35,7 +80,8 @@
       "tier": "UNRANKED",
       "division": "",
       "leaguePoints": 0,
-      "winRate": null
+      "winRate": null,
+      "ranks": []
     },
     {
       "docId": "spiritb4ker",
@@ -44,7 +90,17 @@
       "tier": "EMERALD",
       "division": "I",
       "leaguePoints": 75,
-      "winRate": 49
+      "winRate": 49,
+      "ranks": [
+        {
+          "queueType": "RANKED_SOLO_5x5",
+          "label": "Solo/Duo",
+          "tier": "EMERALD",
+          "division": "I",
+          "leaguePoints": 75,
+          "winRate": 49
+        }
+      ]
     },
     {
       "docId": "grabpatch",
@@ -53,7 +109,17 @@
       "tier": "DIAMOND",
       "division": "IV",
       "leaguePoints": 79,
-      "winRate": 59
+      "winRate": 59,
+      "ranks": [
+        {
+          "queueType": "RANKED_SOLO_5x5",
+          "label": "Solo/Duo",
+          "tier": "DIAMOND",
+          "division": "IV",
+          "leaguePoints": 79,
+          "winRate": 59
+        }
+      ]
     }
   ]
 }
