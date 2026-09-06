@@ -1,0 +1,28 @@
+{
+  "seasonStart": 1785351600,
+  "summoners": {
+    "spiritbr8ker#NA1": {
+      "puuid": "16M4M3oNH4W-myJWoocMUTYHXeh-0vkyY1C1yfoMNE8RA5NwmIgq70ALIP6kck1CZsrzofKBEaMWmw",
+      "champions": {
+        "41": {
+          "games": 1,
+          "wins": 1
+        },
+        "79": {
+          "games": 1,
+          "wins": 1
+        },
+        "164": {
+          "games": 1,
+          "wins": 0
+        }
+      },
+      "processed": [
+        "NA1_5631761241",
+        "NA1_5631735404",
+        "NA1_5627341567"
+      ],
+      "updatedAt": "2026-09-05T02:01:22.728Z"
+    }
+  }
+}

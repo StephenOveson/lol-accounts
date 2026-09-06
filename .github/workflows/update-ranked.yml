@@ -1,0 +1,55 @@
+# .github/workflows/update-ranked.yml
+#
+# Fetches ranked tier/division/LP for the tracked accounts and commits
+# data/ranked.json if it changed. This repo only ever produces that file —
+# it does NOT push into the Rift Roster artifact directly. A separate Claude
+# scheduled task reads data/ranked.json back from this repo (via the GitHub
+# API) and writes it into the artifact's live database. That split exists
+# because the artifact's database has no public write API; only Claude's own
+# tooling can update it.
+#
+# RIOT_API_KEY is a personal/dev key: it expires every 24h. A run that fails
+# with "Riot rejected the key" needs a fresh key pasted into this repo's
+# Settings -> Secrets and variables -> Actions -> RIOT_API_KEY. That is
+# expected on a dev key, not a bug in this workflow.
+
+name: Update ranked stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-ranked
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Fetch ranked stats
+        env:
+          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+        run: node scripts/fetch-ranked.mjs
+
+      - name: Commit if data changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ranked.json
+          git commit -m "chore: refresh ranked stats"
+          git push
