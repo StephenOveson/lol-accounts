@@ -1,0 +1,59 @@
+# .github/workflows/update-rank-benchmarks.yml
+#
+# Samples a handful of real Emerald/Diamond/Master/Grandmaster players and
+# averages their recent ranked-game stats into data/rank-benchmarks.json —
+# the "average player at this rank" line the Rift Roster radar chart plots
+# next to this roster's own numbers. Same split as the other workflows:
+# this repo only produces the data file; a separate Claude scheduled task
+# reads it back and writes it into the artifact's live database.
+#
+# Rank benchmarks don't meaningfully shift day to day, and the sampling
+# (league-v4 entries + a couple of match-v5 calls per sampled player, times
+# 4 ranks) is heavier than the ranked-stats sync though lighter than
+# champion-stats, so this runs weekly rather than every few hours.
+#
+# RIOT_API_KEY is the same personal/dev key used by the other workflows. It
+# expires every 24h; a run that fails with "Riot rejected the key" needs a
+# fresh key pasted into Settings -> Secrets and variables -> Actions.
+
+name: Update rank benchmarks
+
+on:
+  schedule:
+    - cron: "0 12 * * 0"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-rank-benchmarks
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Fetch rank benchmarks
+        env:
+          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+        run: node scripts/fetch-rank-benchmarks.mjs
+
+      - name: Commit if data changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/rank-benchmarks.json
+          git commit -m "chore: refresh rank benchmarks"
+          git push
