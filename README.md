@@ -99,3 +99,13 @@ isn't in that rank's `roles` map. Small sample, on purpose — this is meant
 to be "basic data" for a rough comparison line, not a rigorous population
 study; role-split numbers are thinner still (a handful of games each), so
 treat them as an even rougher signal.
+
+Two things narrow what actually gets sampled, both read from this repo's
+own other data files: only ranks the roster has actually reached
+(`data/ranked.json`'s per-account `tier`) get sampled at all, and only
+roles the roster actually plays (`data/champion-stats.json`'s per-account
+`mainRole`) count toward a rank's benchmark — a jungler or support sampled
+off the ladder just gets discarded rather than diluting the "overall"
+average with a playstyle this roster doesn't have. Both fall back to
+"sample everything" if the relevant file is missing, unparseable, or has
+no usable data yet.
