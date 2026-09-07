@@ -70,4 +70,8 @@ RIOT_API_KEY=RGAPI-... node scripts/fetch-recent-matches.mjs
 match gets a 0-10 performance `rating` and an S/A/B/C/D `grade` derived from
 KDA, kill participation, damage/CS/vision per minute, and a small win bonus
 — see the comment at the top of the script for the exact weights and why
-they're not role-adjusted.
+they're not role-adjusted. Each match also gets a `reason` (1-2 sentences
+naming the standout stat and/or whatever held the grade back) and up to 2
+`tips` targeting the weakest stats. A game that ends in the first 5 minutes
+(remake/early disconnect) is flagged `remake: true` with no rating, grade,
+or tips — its box score is too thin to grade fairly.

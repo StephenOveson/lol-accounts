@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-07T03:19:15.025Z",
+  "fetchedAt": "2026-09-07T05:07:13.246Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -18,11 +18,17 @@
           "kda": 2.33,
           "csPerMin": 7.4,
           "killParticipation": 29,
+          "damagePerMin": 1164,
           "visionScore": 27,
           "durationSeconds": 1814,
           "playedAt": "2026-07-19T19:51:58.992Z",
           "rating": 10,
-          "grade": "S"
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (7/6/7) and middling kill involvement (29% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
         },
         {
           "matchId": "NA1_5604726643",
@@ -36,11 +42,17 @@
           "kda": 1.4,
           "csPerMin": 8.2,
           "killParticipation": 41,
+          "damagePerMin": 563,
           "visionScore": 19,
           "durationSeconds": 1578,
           "playedAt": "2026-07-19T19:14:41.783Z",
           "rating": 5.6,
-          "grade": "B"
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with a rough KDA (3/5/4) and middling kill involvement (41% of team kills). The standout was excellent farm, though a rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
         },
         {
           "matchId": "NA1_5604694647",
@@ -54,11 +66,17 @@
           "kda": 9,
           "csPerMin": 10.2,
           "killParticipation": 50,
+          "damagePerMin": 775,
           "visionScore": 3,
           "durationSeconds": 1195,
           "playedAt": "2026-07-19T17:59:48.819Z",
           "rating": 10,
-          "grade": "S"
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (2/0/7) and solid kill involvement (50% of team kills). The standout was an excellent KDA, though neglected vision held the grade back.",
+          "tips": [
+            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
+          ]
         }
       ]
     },
@@ -79,11 +97,17 @@
           "kda": 2.38,
           "csPerMin": 8.7,
           "killParticipation": 35,
+          "damagePerMin": 1135,
           "visionScore": 40,
           "durationSeconds": 2445,
           "playedAt": "2026-09-07T03:02:21.045Z",
           "rating": 10,
-          "grade": "S"
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (8/8/11) and middling kill involvement (35% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
         },
         {
           "matchId": "NA1_5636732827",
@@ -97,11 +121,17 @@
           "kda": 6.5,
           "csPerMin": 9.3,
           "killParticipation": 55,
+          "damagePerMin": 1717,
           "visionScore": 30,
           "durationSeconds": 1618,
           "playedAt": "2026-09-06T22:13:33.634Z",
           "rating": 10,
-          "grade": "S"
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (19/4/7) and solid kill involvement (55% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
         },
         {
           "matchId": "NA1_5636705184",
@@ -115,11 +145,17 @@
           "kda": 1,
           "csPerMin": 6.8,
           "killParticipation": 60,
+          "damagePerMin": 744,
           "visionScore": 23,
           "durationSeconds": 1430,
           "playedAt": "2026-09-06T21:41:35.398Z",
           "rating": 6.1,
-          "grade": "B"
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with a rough KDA (3/6/3) and solid kill involvement (60% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
         }
       ]
     },
@@ -140,11 +176,17 @@
           "kda": 1.67,
           "csPerMin": 7.4,
           "killParticipation": 45,
+          "damagePerMin": 964,
           "visionScore": 35,
           "durationSeconds": 2850,
           "playedAt": "2025-03-14T21:15:49.557Z",
           "rating": 6.7,
-          "grade": "B"
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with an even KDA (11/12/9) and solid kill involvement (45% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
         },
         {
           "matchId": "NA1_5247315993",
@@ -158,11 +200,17 @@
           "kda": 4,
           "csPerMin": 8.3,
           "killParticipation": 52,
+          "damagePerMin": 579,
           "visionScore": 11,
           "durationSeconds": 1209,
           "playedAt": "2025-03-14T19:31:42.965Z",
           "rating": 10,
-          "grade": "S"
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (5/3/7) and solid kill involvement (52% of team kills). Excellent farm carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
         },
         {
           "matchId": "NA1_5182351850",
@@ -176,11 +224,17 @@
           "kda": 2.8,
           "csPerMin": 5.8,
           "killParticipation": 64,
+          "damagePerMin": 879,
           "visionScore": 34,
           "durationSeconds": 2356,
           "playedAt": "2024-12-15T05:34:10.520Z",
           "rating": 7.4,
-          "grade": "A"
+          "grade": "A",
+          "remake": false,
+          "reason": "Lost with an even KDA (10/10/18) and solid kill involvement (64% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
         }
       ]
     },
@@ -201,11 +255,17 @@
           "kda": 3.5,
           "csPerMin": 7.6,
           "killParticipation": 70,
+          "damagePerMin": 533,
           "visionScore": 6,
           "durationSeconds": 1064,
           "playedAt": "2024-11-08T21:21:32.104Z",
           "rating": 7.2,
-          "grade": "A"
+          "grade": "A",
+          "remake": false,
+          "reason": "Lost with a solid KDA (3/2/4) and constant kill involvement (70% of team kills). The standout was constant kill involvement, though neglected vision held the grade back.",
+          "tips": [
+            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
+          ]
         },
         {
           "matchId": "NA1_5149797912",
@@ -217,13 +277,17 @@
           "deaths": 0,
           "assists": 0,
           "kda": 0,
-          "csPerMin": 1.9,
+          "csPerMin": 0,
           "killParticipation": 0,
+          "damagePerMin": 0,
           "visionScore": 0,
           "durationSeconds": 129,
           "playedAt": "2024-11-08T20:58:07.274Z",
-          "rating": 5.5,
-          "grade": "B"
+          "rating": null,
+          "grade": null,
+          "remake": true,
+          "reason": "Game ended in the first few minutes (remake or early disconnect) — not enough played to grade.",
+          "tips": []
         }
       ]
     },
@@ -244,11 +308,18 @@
           "kda": 0,
           "csPerMin": 9.7,
           "killParticipation": 0,
+          "damagePerMin": 431,
           "visionScore": 4,
           "durationSeconds": 674,
           "playedAt": "2026-08-05T19:49:54.938Z",
           "rating": 3.4,
-          "grade": "D"
+          "grade": "D",
+          "remake": false,
+          "reason": "Lost with a rough KDA (0/2/0) and little kill involvement (0% of team kills). The standout was excellent farm, though a rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
         },
         {
           "matchId": "NA1_5615725034",
@@ -262,11 +333,18 @@
           "kda": 0.67,
           "csPerMin": 6.9,
           "killParticipation": 24,
+          "damagePerMin": 524,
           "visionScore": 22,
           "durationSeconds": 1666,
           "playedAt": "2026-08-05T19:33:21.686Z",
           "rating": 4.5,
-          "grade": "C"
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a rough KDA (0/6/4) and little kill involvement (24% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
         },
         {
           "matchId": "NA1_5615710836",
@@ -280,11 +358,17 @@
           "kda": 1.13,
           "csPerMin": 5.9,
           "killParticipation": 38,
+          "damagePerMin": 525,
           "visionScore": 26,
           "durationSeconds": 1753,
           "playedAt": "2026-08-05T18:59:47.359Z",
           "rating": 4.9,
-          "grade": "C"
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a rough KDA (4/8/5) and middling kill involvement (38% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
         }
       ]
     },
@@ -305,11 +389,17 @@
           "kda": 4.5,
           "csPerMin": 5,
           "killParticipation": 59,
+          "damagePerMin": 843,
           "visionScore": 19,
           "durationSeconds": 1995,
           "playedAt": "2026-09-05T05:27:15.411Z",
           "rating": 10,
-          "grade": "S"
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (3/6/24) and solid kill involvement (59% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
         },
         {
           "matchId": "NA1_5635586220",
@@ -323,11 +413,17 @@
           "kda": 16,
           "csPerMin": 8.1,
           "killParticipation": 50,
+          "damagePerMin": 972,
           "visionScore": 18,
           "durationSeconds": 1219,
           "playedAt": "2026-09-05T04:39:59.456Z",
           "rating": 10,
-          "grade": "S"
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (10/1/6) and solid kill involvement (50% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
         },
         {
           "matchId": "NA1_5622388301",
@@ -341,11 +437,17 @@
           "kda": 1.4,
           "csPerMin": 5.5,
           "killParticipation": 44,
+          "damagePerMin": 852,
           "visionScore": 20,
           "durationSeconds": 1569,
           "playedAt": "2026-08-16T05:17:17.626Z",
           "rating": 5.9,
-          "grade": "B"
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with a rough KDA (6/10/8) and middling kill involvement (44% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
         }
       ]
     }
