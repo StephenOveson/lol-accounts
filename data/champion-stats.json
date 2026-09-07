@@ -1,0 +1,130 @@
+{
+  "fetchedAt": "2026-09-07T01:55:27.301Z",
+  "seasonStart": "2026-01-01T00:00:00.000Z",
+  "accounts": [
+    {
+      "docId": "dj-foehammer",
+      "gameName": "DJ Foehammer",
+      "tagLine": "NA1",
+      "matchesAnalyzed": 21,
+      "topChampions": [
+        {
+          "championName": "Ezreal",
+          "games": 3,
+          "wins": 1,
+          "winRate": 33
+        },
+        {
+          "championName": "Senna",
+          "games": 3,
+          "wins": 1,
+          "winRate": 33
+        },
+        {
+          "championName": "Caitlyn",
+          "games": 2,
+          "wins": 2,
+          "winRate": 100
+        }
+      ],
+      "mainRole": "Bottom"
+    },
+    {
+      "docId": "spiritbr8ker",
+      "gameName": "spiritbr8ker",
+      "tagLine": "NA1",
+      "matchesAnalyzed": 50,
+      "topChampions": [
+        {
+          "championName": "Gangplank",
+          "games": 17,
+          "wins": 10,
+          "winRate": 59
+        },
+        {
+          "championName": "Gragas",
+          "games": 13,
+          "wins": 6,
+          "winRate": 46
+        },
+        {
+          "championName": "Ambessa",
+          "games": 4,
+          "wins": 3,
+          "winRate": 75
+        }
+      ],
+      "mainRole": "Top"
+    },
+    {
+      "docId": "nomessnofuss",
+      "gameName": "NoMessNofuss",
+      "tagLine": "1329",
+      "matchesAnalyzed": 0,
+      "topChampions": [],
+      "mainRole": null
+    },
+    {
+      "docId": "mrs-deesenutz",
+      "gameName": "Mrs Deesenutz",
+      "tagLine": "NA1",
+      "matchesAnalyzed": 0,
+      "topChampions": [],
+      "mainRole": null
+    },
+    {
+      "docId": "spiritb4ker",
+      "gameName": "spiritb4ker",
+      "tagLine": "NA1",
+      "matchesAnalyzed": 50,
+      "topChampions": [
+        {
+          "championName": "Rumble",
+          "games": 9,
+          "wins": 6,
+          "winRate": 67
+        },
+        {
+          "championName": "Garen",
+          "games": 8,
+          "wins": 6,
+          "winRate": 75
+        },
+        {
+          "championName": "Renekton",
+          "games": 4,
+          "wins": 1,
+          "winRate": 25
+        }
+      ],
+      "mainRole": "Top"
+    },
+    {
+      "docId": "grabpatch",
+      "gameName": "grabpatch",
+      "tagLine": "NA1",
+      "matchesAnalyzed": 50,
+      "topChampions": [
+        {
+          "championName": "Galio",
+          "games": 19,
+          "wins": 12,
+          "winRate": 63
+        },
+        {
+          "championName": "Ziggs",
+          "games": 9,
+          "wins": 4,
+          "winRate": 44
+        },
+        {
+          "championName": "Xerath",
+          "games": 5,
+          "wins": 3,
+          "winRate": 60
+        }
+      ],
+      "mainRole": "Mid"
+    }
+  ]
+}
