@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-07T19:32:22.429Z",
+  "fetchedAt": "2026-09-07T20:14:03.856Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5637442967",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Viego",
+          "role": "Top",
+          "win": true,
+          "kills": 8,
+          "deaths": 0,
+          "assists": 0,
+          "kda": 8,
+          "csPerMin": 10.6,
+          "killParticipation": 42,
+          "damagePerMin": 879,
+          "visionScore": 9,
+          "durationSeconds": 926,
+          "playedAt": "2026-09-07T20:01:07.958Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (8/0/0) and middling kill involvement (42% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5637413209",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -134,31 +159,6 @@
           "grade": "B",
           "remake": false,
           "reason": "Lost with a rough KDA (2/11/6) and middling kill involvement (36% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5637112761",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Ambessa",
-          "role": "Top",
-          "win": false,
-          "kills": 4,
-          "deaths": 6,
-          "assists": 0,
-          "kda": 0.67,
-          "csPerMin": 7.8,
-          "killParticipation": 44,
-          "damagePerMin": 861,
-          "visionScore": 17,
-          "durationSeconds": 1206,
-          "playedAt": "2026-09-07T05:35:49.874Z",
-          "rating": 6.1,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (4/6/0) and middling kill involvement (44% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
