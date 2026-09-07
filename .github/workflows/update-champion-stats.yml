@@ -7,8 +7,9 @@
 # it into the Rift Roster artifact's live database.
 #
 # This is a much heavier job than the ranked-stats sync (roughly 1 + 50
-# Riot API calls per account instead of 2), so it runs daily rather than
-# every 6 hours — champion/role trends don't shift hour to hour anyway.
+# Riot API calls per account instead of 2). It runs hourly like the other
+# per-account jobs; watch the dev key's rate limit if that turns out to be
+# too aggressive.
 #
 # RIOT_API_KEY is the same personal/dev key used by update-ranked.yml. It
 # expires every 24h; a run that fails with "Riot rejected the key" needs a
@@ -18,7 +19,7 @@ name: Update champion stats
 
 on:
   schedule:
-    - cron: "30 8 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch: {}
 
 permissions:
