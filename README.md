@@ -21,8 +21,14 @@ Two systems, because neither can do the whole job alone:
      any queue/mode (ranked, normals, ARAM, event modes, ...) with a derived
      per-match performance rating -> `data/recent-matches.json`. Only 4 calls
      per account, so it can run more often and stay actually "recent."
+   - `update-rank-benchmarks.yml` (weekly) — samples a handful of real
+     Emerald/Diamond/Master/Grandmaster players and averages their recent
+     ranked stats -> `data/rank-benchmarks.json`. This is the "average
+     player at this rank" line the radar chart plots alongside the roster's
+     own numbers; there's no Riot endpoint for it, so this builds it from a
+     small sample instead.
 2. **A Claude scheduled task** (set up separately, not part of this repo)
-   reads all three data files back via the GitHub API and writes them into
+   reads all four data files back via the GitHub API and writes them into
    the artifact's live database. Only Claude's own tooling can write to a
    published artifact's database — there's no public API for that — so this
    step has to run there, not here.
@@ -53,13 +59,14 @@ registered app) is the only way to remove this step entirely.
 
 ## Manual run
 
-Actions tab → "Update ranked stats", "Update champion stats", or "Update
-recent matches" → Run workflow. Or locally:
+Actions tab → "Update ranked stats", "Update champion stats", "Update
+recent matches", or "Update rank benchmarks" → Run workflow. Or locally:
 
 ```
 RIOT_API_KEY=RGAPI-... node scripts/fetch-ranked.mjs
 RIOT_API_KEY=RGAPI-... node scripts/fetch-champion-stats.mjs
 RIOT_API_KEY=RGAPI-... node scripts/fetch-recent-matches.mjs
+RIOT_API_KEY=RGAPI-... node scripts/fetch-rank-benchmarks.mjs
 ```
 
 `fetch-champion-stats.mjs` accepts a couple of env overrides:
@@ -75,3 +82,13 @@ naming the standout stat and/or whatever held the grade back) and up to 2
 `tips` targeting the weakest stats. A game that ends in the first 5 minutes
 (remake/early disconnect) is flagged `remake: true` with no rating, grade,
 or tips — its box score is too thin to grade fairly.
+
+`fetch-rank-benchmarks.mjs` accepts `RANK_SAMPLE_SIZE` (default 8 players
+per rank), `RANK_SAMPLE_MATCHES` (default 2 ranked games per player),
+`RANK_SAMPLE_PLATFORM` (default `na1`), and `RANK_SAMPLE_DIVISION` (default
+`I`, only used for the divisioned Emerald/Diamond tiers — Master/Grandmaster
+have no divisions). It samples real players via league-v4 (LeagueEntryDTO
+now carries `puuid` directly, so no summoner-v4 lookup is needed), pulls a
+couple of their recent ranked games via match-v5, and averages the same 5
+stats the match rating uses. Small sample, on purpose — this is meant to be
+"basic data" for a rough comparison line, not a rigorous population study.
