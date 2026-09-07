@@ -83,12 +83,19 @@ naming the standout stat and/or whatever held the grade back) and up to 2
 (remake/early disconnect) is flagged `remake: true` with no rating, grade,
 or tips — its box score is too thin to grade fairly.
 
-`fetch-rank-benchmarks.mjs` accepts `RANK_SAMPLE_SIZE` (default 8 players
-per rank), `RANK_SAMPLE_MATCHES` (default 2 ranked games per player),
+`fetch-rank-benchmarks.mjs` accepts `RANK_SAMPLE_SIZE` (default 10 players
+per rank), `RANK_SAMPLE_MATCHES` (default 3 ranked games per player),
 `RANK_SAMPLE_PLATFORM` (default `na1`), and `RANK_SAMPLE_DIVISION` (default
 `I`, only used for the divisioned Emerald/Diamond tiers — Master/Grandmaster
 have no divisions). It samples real players via league-v4 (LeagueEntryDTO
 now carries `puuid` directly, so no summoner-v4 lookup is needed), pulls a
-couple of their recent ranked games via match-v5, and averages the same 5
-stats the match rating uses. Small sample, on purpose — this is meant to be
-"basic data" for a rough comparison line, not a rigorous population study.
+few of their recent ranked games via match-v5, and averages the same 5
+stats the match rating uses — both overall per rank and broken out by role
+(Top/Jungle/Mid/Bottom/Support, via each match's `teamPosition`, same as
+`fetch-champion-stats.mjs`'s role detection) so the radar chart can compare
+"this roster's top laner" against "the average Emerald top laner" instead
+of blending every role together. A role nobody in the sample played just
+isn't in that rank's `roles` map. Small sample, on purpose — this is meant
+to be "basic data" for a rough comparison line, not a rigorous population
+study; role-split numbers are thinner still (a handful of games each), so
+treat them as an even rougher signal.

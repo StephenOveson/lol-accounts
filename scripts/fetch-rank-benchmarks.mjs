@@ -34,22 +34,37 @@
  *
  * Every qualifying match (excluding remakes under 5 minutes, same rule as
  * fetch-recent-matches.mjs) across every sampled player at a rank is
- * averaged together into that rank's benchmark. Small sample, on purpose —
- * default 8 players x 2 matches x 4 ranks keeps this well under the dev
- * key's rate limit. This is "basic data," not a rigorous population study.
+ * averaged into that rank's overall benchmark, AND bucketed by role
+ * (Riot's teamPosition on the match, same TOP/JUNGLE/MIDDLE/BOTTOM/UTILITY
+ * -> Top/Jungle/Mid/Bottom/Support mapping fetch-champion-stats.mjs uses)
+ * so "average Emerald player" and "average Emerald top laner" are both
+ * available. A role with zero qualifying matches just isn't in the
+ * output's "roles" map — there's no meaningful average to report.
+ *
+ * Default 10 players x 3 matches x 4 ranks (~30 matches/rank spread across
+ * 5 roles) keeps this well under the dev key's rate limit while giving
+ * each role at least a few samples most of the time. Small sample, on
+ * purpose — this is "basic data," not a rigorous population study.
+ *
+ * Only ranks this roster has actually reached get sampled at all: this
+ * reads data/ranked.json (written by fetch-ranked.mjs, already checked out
+ * alongside this script in CI) and skips any of the 4 candidate ranks with
+ * no tracked account currently at it — matching the artifact's own rank
+ * selector, and not spending API budget benchmarking a rank nobody's
+ * climbed to yet.
  *
  *   RIOT_API_KEY=RGAPI-... node scripts/fetch-rank-benchmarks.mjs
  */
 
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const KEY = process.env.RIOT_API_KEY;
 const OUT_PATH = process.env.OUT_PATH || "data/rank-benchmarks.json";
 const QUEUE = "RANKED_SOLO_5x5";
 const PLATFORM = process.env.RANK_SAMPLE_PLATFORM || "na1";
 const DIVISION = process.env.RANK_SAMPLE_DIVISION || "I";
-const SAMPLE_SIZE = Number(process.env.RANK_SAMPLE_SIZE || 8);
-const MATCHES_PER_PLAYER = Number(process.env.RANK_SAMPLE_MATCHES || 2);
+const SAMPLE_SIZE = Number(process.env.RANK_SAMPLE_SIZE || 10);
+const MATCHES_PER_PLAYER = Number(process.env.RANK_SAMPLE_MATCHES || 3);
 const SLEEP_MS = Number(process.env.RIOT_SLEEP_MS || 1300); // ~46 req/min, comfortably under the dev key's 100/2min cap
 const REMAKE_THRESHOLD_SECONDS = 300; // matches fetch-recent-matches.mjs's remake cutoff
 
@@ -70,6 +85,17 @@ const RANKS = [
   { key: "MASTER", kind: "apex", path: "masterleagues" },
   { key: "GRANDMASTER", kind: "apex", path: "grandmasterleagues" },
 ];
+
+// Same mapping fetch-champion-stats.mjs uses for "most probable role". A
+// handful of very old or non-standard matches can have an empty
+// teamPosition; those just don't count toward any role bucket.
+const ROLE_LABELS = {
+  TOP: "Top",
+  JUNGLE: "Jungle",
+  MIDDLE: "Mid",
+  BOTTOM: "Bottom",
+  UTILITY: "Support",
+};
 
 const regional = REGIONAL[PLATFORM];
 if (!regional) {
@@ -142,6 +168,7 @@ function sampleMatchMetrics(participant, match) {
     .reduce((sum, p) => sum + p.kills, 0);
 
   return {
+    role: ROLE_LABELS[participant.teamPosition] || null,
     kda: (participant.kills + participant.assists) / Math.max(1, participant.deaths),
     killParticipation: (teamKills > 0 ? (participant.kills + participant.assists) / teamKills : 0) * 100,
     damagePerMin: participant.totalDamageDealtToChampions / durationMin,
@@ -202,23 +229,75 @@ async function benchmarkRank(rank) {
     return { key: rank.key, error: "no qualifying (non-remake) matches found for the sampled players" };
   }
 
+  // Bucket by role in addition to the overall average — a role with zero
+  // qualifying matches (nobody sampled played it, or Riot didn't report a
+  // teamPosition for it) just doesn't get a "roles" entry.
+  const roles = {};
+  Object.values(ROLE_LABELS).forEach((roleLabel) => {
+    const roleSamples = metricSamples.filter((s) => s.role === roleLabel);
+    if (roleSamples.length === 0) return;
+    roles[roleLabel] = { matchesAnalyzed: roleSamples.length, metrics: averageMetrics(roleSamples) };
+  });
+
   return {
     key: rank.key,
     sampleSize: sampled.length,
     playersWithData,
     matchesAnalyzed: metricSamples.length,
     metrics: averageMetrics(metricSamples),
+    roles,
   };
 }
 
+// The set of this roster's currently-reached tiers, read from
+// data/ranked.json's per-account `tier` field (their Solo/Duo rank — same
+// field the artifact's own rank selector keys off). Falls back to "sample
+// every candidate rank" (the old behavior) if that file is missing or
+// unparseable, since that's a more useful default than silently sampling
+// nothing when the roster's current ranks simply aren't known yet.
+async function reachedRanks(ranksPath) {
+  let raw;
+  try {
+    raw = await readFile(ranksPath, "utf8");
+  } catch {
+    console.warn(`Couldn't read ${ranksPath} — sampling every candidate rank instead of just the ones this roster has reached.`);
+    return null;
+  }
+
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch {
+    console.warn(`${ranksPath} isn't valid JSON — sampling every candidate rank instead.`);
+    return null;
+  }
+
+  const tiers = new Set(
+    (parsed.accounts || [])
+      .filter((a) => !a.error && a.tier)
+      .map((a) => a.tier.toUpperCase())
+  );
+  return tiers;
+}
+
 async function main() {
+  const reached = await reachedRanks("data/ranked.json");
+  const targetRanks = reached ? RANKS.filter((r) => reached.has(r.key)) : RANKS;
+
+  if (reached && targetRanks.length === 0) {
+    console.warn("No tracked account is currently at Emerald, Diamond, Master, or Grandmaster — nothing to sample this run.");
+  } else if (reached) {
+    console.log(`Sampling only reached ranks: ${targetRanks.map((r) => r.key).join(", ")}.`);
+  }
+
   const results = {};
-  for (const rank of RANKS) {
+  for (const rank of targetRanks) {
     const r = await benchmarkRank(rank);
     if (r.error) {
       console.warn(`${rank.key}: ${r.error}`);
     } else {
-      console.log(`${rank.key}: ${r.matchesAnalyzed} matches from ${r.playersWithData}/${r.sampleSize} sampled players`);
+      const roleCoverage = Object.keys(r.roles).map((role) => `${role} ${r.roles[role].matchesAnalyzed}`).join(", ") || "none";
+      console.log(`${rank.key}: ${r.matchesAnalyzed} matches from ${r.playersWithData}/${r.sampleSize} sampled players — roles: ${roleCoverage}`);
     }
     results[rank.key] = r;
   }
