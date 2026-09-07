@@ -42,6 +42,14 @@
  * excluded from all of this — `rating`/`grade` come back null and `reason`
  * says why, rather than grading a near-empty box score.
  *
+ * Each match also carries `role` (Top/Jungle/Mid/Bottom/Support, from
+ * Riot's teamPosition — same mapping fetch-champion-stats.mjs and
+ * fetch-rank-benchmarks.mjs use, `null` if Riot didn't report one) so the
+ * Rift Roster radar chart can filter this roster's own matches by role the
+ * same way it filters the sampled rank-average benchmark — "my top lane
+ * games" compared against "the average top laner at this rank," not one
+ * side blended across every role while the other is filtered.
+ *
  *   RIOT_API_KEY=RGAPI-... node scripts/fetch-recent-matches.mjs
  */
 
@@ -83,6 +91,19 @@ const QUEUE_LABELS = {
   1400: "Ultimate Spellbook",
   1700: "Arena",
   1900: "URF (Pick)",
+};
+
+// Same mapping fetch-champion-stats.mjs and fetch-rank-benchmarks.mjs use
+// for role detection. A match with no reported teamPosition (common in
+// ARAM/URF/event modes, rare but possible in normal 5v5) gets `role: null`
+// rather than a guess — the radar chart's role filter treats that the same
+// as "not confirmed to be this role," not "matches every role."
+const ROLE_LABELS = {
+  TOP: "Top",
+  JUNGLE: "Jungle",
+  MIDDLE: "Mid",
+  BOTTOM: "Bottom",
+  UTILITY: "Support",
 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -302,6 +323,7 @@ async function fetchRecentMatches({ docId, gameName, tagLine, platform }) {
       queueId: match.data.info.queueId,
       mode: QUEUE_LABELS[match.data.info.queueId] || `Queue ${match.data.info.queueId}`,
       championName: participant.championName,
+      role: ROLE_LABELS[participant.teamPosition] || null,
       win: participant.win,
       kills: participant.kills,
       deaths: participant.deaths,

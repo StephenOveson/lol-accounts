@@ -81,7 +81,11 @@ they're not role-adjusted. Each match also gets a `reason` (1-2 sentences
 naming the standout stat and/or whatever held the grade back) and up to 2
 `tips` targeting the weakest stats. A game that ends in the first 5 minutes
 (remake/early disconnect) is flagged `remake: true` with no rating, grade,
-or tips — its box score is too thin to grade fairly.
+or tips — its box score is too thin to grade fairly. Each match also
+carries `role` (Top/Jungle/Mid/Bottom/Support, from Riot's teamPosition,
+`null` if unreported) so the radar chart can filter this roster's own
+matches by role the same way it filters the sampled rank-average
+benchmark.
 
 `fetch-rank-benchmarks.mjs` accepts `RANK_SAMPLE_SIZE` (default 10 players
 per rank), `RANK_SAMPLE_MATCHES` (default 3 ranked games per player),
