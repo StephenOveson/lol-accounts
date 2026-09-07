@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-07T15:49:53.787Z",
+  "fetchedAt": "2026-09-07T19:32:22.429Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5637413209",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Viego",
+          "role": "Top",
+          "win": true,
+          "kills": 7,
+          "deaths": 8,
+          "assists": 7,
+          "kda": 1.75,
+          "csPerMin": 5.7,
+          "killParticipation": 47,
+          "damagePerMin": 846,
+          "visionScore": 13,
+          "durationSeconds": 1326,
+          "playedAt": "2026-09-07T19:27:02.158Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (7/8/7) and solid kill involvement (47% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5637137970",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -136,31 +161,6 @@
           "reason": "Lost with a rough KDA (4/6/0) and middling kill involvement (44% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5636936409",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Yone",
-          "role": "Top",
-          "win": true,
-          "kills": 8,
-          "deaths": 8,
-          "assists": 11,
-          "kda": 2.38,
-          "csPerMin": 8.7,
-          "killParticipation": 35,
-          "damagePerMin": 1135,
-          "visionScore": 40,
-          "durationSeconds": 2445,
-          "playedAt": "2026-09-07T03:02:21.045Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (8/8/11) and middling kill involvement (35% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
