@@ -1,0 +1,59 @@
+{
+  "fetchedAt": "2026-09-07T06:23:04.424Z",
+  "queue": "RANKED_SOLO_5x5",
+  "platform": "na1",
+  "ranks": {
+    "EMERALD": {
+      "key": "EMERALD",
+      "sampleSize": 8,
+      "playersWithData": 8,
+      "matchesAnalyzed": 16,
+      "metrics": {
+        "kda": 3.19,
+        "killParticipation": 47.73,
+        "damagePerMin": 759.94,
+        "csPerMin": 5.43,
+        "visionPerMin": 1.25
+      }
+    },
+    "DIAMOND": {
+      "key": "DIAMOND",
+      "sampleSize": 8,
+      "playersWithData": 8,
+      "matchesAnalyzed": 16,
+      "metrics": {
+        "kda": 4.08,
+        "killParticipation": 52.28,
+        "damagePerMin": 584.01,
+        "csPerMin": 5.27,
+        "visionPerMin": 1.45
+      }
+    },
+    "MASTER": {
+      "key": "MASTER",
+      "sampleSize": 8,
+      "playersWithData": 8,
+      "matchesAnalyzed": 16,
+      "metrics": {
+        "kda": 2.24,
+        "killParticipation": 52.73,
+        "damagePerMin": 905.32,
+        "csPerMin": 7.35,
+        "visionPerMin": 0.77
+      }
+    },
+    "GRANDMASTER": {
+      "key": "GRANDMASTER",
+      "sampleSize": 8,
+      "playersWithData": 8,
+      "matchesAnalyzed": 16,
+      "metrics": {
+        "kda": 4.24,
+        "killParticipation": 51.65,
+        "damagePerMin": 740.97,
+        "csPerMin": 7.08,
+        "visionPerMin": 0.96
+      }
+    }
+  }
+}
