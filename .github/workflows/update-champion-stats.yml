@@ -1,0 +1,57 @@
+# .github/workflows/update-champion-stats.yml
+#
+# Fetches each tracked account's top 3 champions and most probable role for
+# the current season (via Match-V5) and commits data/champion-stats.json if
+# it changed. Same split as update-ranked.yml: this repo only ever produces
+# the data file — a separate Claude scheduled task reads it back and writes
+# it into the Rift Roster artifact's live database.
+#
+# This is a much heavier job than the ranked-stats sync (roughly 1 + 50
+# Riot API calls per account instead of 2), so it runs daily rather than
+# every 6 hours — champion/role trends don't shift hour to hour anyway.
+#
+# RIOT_API_KEY is the same personal/dev key used by update-ranked.yml. It
+# expires every 24h; a run that fails with "Riot rejected the key" needs a
+# fresh key pasted into Settings -> Secrets and variables -> Actions.
+
+name: Update champion stats
+
+on:
+  schedule:
+    - cron: "30 8 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-champion-stats
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Fetch champion stats
+        env:
+          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+        run: node scripts/fetch-champion-stats.mjs
+
+      - name: Commit if data changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/champion-stats.json
+          git commit -m "chore: refresh champion stats"
+          git push
