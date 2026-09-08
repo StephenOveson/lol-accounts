@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-08T03:58:43.579Z",
+  "fetchedAt": "2026-09-08T08:49:17.971Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5637886825",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Viego",
+          "role": "Top",
+          "win": false,
+          "kills": 7,
+          "deaths": 9,
+          "assists": 3,
+          "kda": 1.11,
+          "csPerMin": 6.5,
+          "killParticipation": 43,
+          "damagePerMin": 688,
+          "visionScore": 25,
+          "durationSeconds": 1768,
+          "playedAt": "2026-09-08T04:50:20.871Z",
+          "rating": 5.6,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with a rough KDA (7/9/3) and middling kill involvement (43% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
+          "matchId": "NA1_5637841614",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Viego",
+          "role": "Top",
+          "win": true,
+          "kills": 6,
+          "deaths": 9,
+          "assists": 14,
+          "kda": 2.22,
+          "csPerMin": 4.7,
+          "killParticipation": 54,
+          "damagePerMin": 619,
+          "visionScore": 39,
+          "durationSeconds": 1765,
+          "playedAt": "2026-09-08T04:09:50.730Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (6/9/14) and solid kill involvement (54% of team kills).",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5637604008",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -109,56 +159,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an even KDA (9/7/10) and solid kill involvement (45% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5637442967",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Viego",
-          "role": "Top",
-          "win": true,
-          "kills": 8,
-          "deaths": 0,
-          "assists": 0,
-          "kda": 8,
-          "csPerMin": 10.6,
-          "killParticipation": 42,
-          "damagePerMin": 879,
-          "visionScore": 9,
-          "durationSeconds": 926,
-          "playedAt": "2026-09-07T20:01:07.958Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an excellent KDA (8/0/0) and middling kill involvement (42% of team kills). An excellent KDA carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5637413209",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Viego",
-          "role": "Top",
-          "win": true,
-          "kills": 7,
-          "deaths": 8,
-          "assists": 7,
-          "kda": 1.75,
-          "csPerMin": 5.7,
-          "killParticipation": 47,
-          "damagePerMin": 846,
-          "visionScore": 13,
-          "durationSeconds": 1326,
-          "playedAt": "2026-09-07T19:27:02.158Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (7/8/7) and solid kill involvement (47% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
