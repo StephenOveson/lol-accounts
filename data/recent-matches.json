@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-07T23:22:37.741Z",
+  "fetchedAt": "2026-09-08T03:58:43.579Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5637604008",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Ziggs",
+          "role": "Bottom",
+          "win": true,
+          "kills": 9,
+          "deaths": 7,
+          "assists": 10,
+          "kda": 2.71,
+          "csPerMin": 7.8,
+          "killParticipation": 45,
+          "damagePerMin": 1021,
+          "visionScore": 25,
+          "durationSeconds": 2370,
+          "playedAt": "2026-09-07T23:56:58.181Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (9/7/10) and solid kill involvement (45% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5637442967",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -136,31 +161,6 @@
           "reason": "Won with an even KDA (7/8/7) and solid kill involvement (47% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5637137970",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Gangplank",
-          "role": "Top",
-          "win": false,
-          "kills": 2,
-          "deaths": 11,
-          "assists": 6,
-          "kda": 0.73,
-          "csPerMin": 6.3,
-          "killParticipation": 36,
-          "damagePerMin": 815,
-          "visionScore": 31,
-          "durationSeconds": 1929,
-          "playedAt": "2026-09-07T06:19:31.806Z",
-          "rating": 5.5,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (2/11/6) and middling kill involvement (36% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
