@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-09T23:57:25.401Z",
+  "fetchedAt": "2026-09-10T04:25:43.829Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5639041110",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Gragas",
+          "role": "Top",
+          "win": false,
+          "kills": 2,
+          "deaths": 1,
+          "assists": 1,
+          "kda": 3,
+          "csPerMin": 8.9,
+          "killParticipation": 30,
+          "damagePerMin": 448,
+          "visionScore": 11,
+          "durationSeconds": 927,
+          "playedAt": "2026-09-10T02:37:13.015Z",
+          "rating": 6,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with a solid KDA (2/1/1) and middling kill involvement (30% of team kills). Excellent farm carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5638538380",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -136,32 +161,6 @@
           "reason": "Lost with a rough KDA (2/10/10) and middling kill involvement (43% of team kills). A rough KDA held the grade back.",
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5638501012",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Viego",
-          "role": "Top",
-          "win": true,
-          "kills": 0,
-          "deaths": 8,
-          "assists": 1,
-          "kda": 0.13,
-          "csPerMin": 5.5,
-          "killParticipation": 4,
-          "damagePerMin": 364,
-          "visionScore": 7,
-          "durationSeconds": 934,
-          "playedAt": "2026-09-09T04:09:23.141Z",
-          "rating": 7.8,
-          "grade": "A",
-          "remake": false,
-          "reason": "Won with a rough KDA (0/8/1) and little kill involvement (4% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
           ]
         }
       ]
