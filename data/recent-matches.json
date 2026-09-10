@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T04:25:43.829Z",
+  "fetchedAt": "2026-09-10T09:29:03.977Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5639157902",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Ambessa",
+          "role": "Top",
+          "win": true,
+          "kills": 8,
+          "deaths": 2,
+          "assists": 5,
+          "kda": 6.5,
+          "csPerMin": 7.8,
+          "killParticipation": 41,
+          "damagePerMin": 1071,
+          "visionScore": 23,
+          "durationSeconds": 1546,
+          "playedAt": "2026-09-10T05:02:42.834Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (8/2/5) and middling kill involvement (41% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5639041110",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -136,31 +161,6 @@
           "reason": "Lost with an even KDA (13/6/3) and solid kill involvement (64% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5638519849",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Akshan",
-          "role": "Bottom",
-          "win": false,
-          "kills": 2,
-          "deaths": 10,
-          "assists": 10,
-          "kda": 1.2,
-          "csPerMin": 5.9,
-          "killParticipation": 43,
-          "damagePerMin": 564,
-          "visionScore": 29,
-          "durationSeconds": 1954,
-          "playedAt": "2026-09-09T04:46:34.974Z",
-          "rating": 5.1,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (2/10/10) and middling kill involvement (43% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
