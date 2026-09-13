@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-07T14:27:12.924Z",
+  "fetchedAt": "2026-09-13T13:28:13.498Z",
   "seasonStart": "2026-01-01T00:00:00.000Z",
   "accounts": [
     {
@@ -37,9 +37,9 @@
       "topChampions": [
         {
           "championName": "Gangplank",
-          "games": 17,
+          "games": 18,
           "wins": 10,
-          "winRate": 59
+          "winRate": 56
         },
         {
           "championName": "Gragas",
