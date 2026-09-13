@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T00:44:12.450Z",
+  "fetchedAt": "2026-09-13T05:50:12.917Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5641120699",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Gangplank",
+          "role": "Top",
+          "win": false,
+          "kills": 1,
+          "deaths": 7,
+          "assists": 8,
+          "kda": 1.29,
+          "csPerMin": 6.7,
+          "killParticipation": 25,
+          "damagePerMin": 578,
+          "visionScore": 31,
+          "durationSeconds": 1856,
+          "playedAt": "2026-09-13T05:19:17.442Z",
+          "rating": 5.1,
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a rough KDA (1/7/8) and middling kill involvement (25% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
           "matchId": "NA1_5639157902",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -134,31 +159,6 @@
           "grade": "B",
           "remake": false,
           "reason": "Lost with a solid KDA (2/1/1) and middling kill involvement (30% of team kills). Excellent farm carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5638538380",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Ambessa",
-          "role": "Top",
-          "win": false,
-          "kills": 13,
-          "deaths": 6,
-          "assists": 3,
-          "kda": 2.67,
-          "csPerMin": 7.6,
-          "killParticipation": 64,
-          "damagePerMin": 1286,
-          "visionScore": 39,
-          "durationSeconds": 1831,
-          "playedAt": "2026-09-09T05:21:20.897Z",
-          "rating": 8,
-          "grade": "A",
-          "remake": false,
-          "reason": "Lost with an even KDA (13/6/3) and solid kill involvement (64% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
