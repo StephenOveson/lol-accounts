@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T00:37:33.789Z",
+  "fetchedAt": "2026-09-14T05:40:45.792Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -24,10 +24,10 @@
       "docId": "spiritbr8ker",
       "gameName": "spiritbr8ker",
       "tagLine": "NA1",
-      "tier": "DIAMOND",
+      "tier": "MASTER",
       "division": "I",
-      "leaguePoints": 78,
-      "winRate": 52,
+      "leaguePoints": 46,
+      "winRate": 53,
       "ranks": [
         {
           "queueType": "RANKED_FLEX_SR",
@@ -36,14 +36,6 @@
           "division": "IV",
           "leaguePoints": 78,
           "winRate": 53
-        },
-        {
-          "queueType": "RANKED_PREMADE_5x5",
-          "label": "RANKED_PREMADE_5x5",
-          "tier": "DIAMOND",
-          "division": "III",
-          "leaguePoints": 76,
-          "winRate": 71
         },
         {
           "queueType": "JADE_RANKED_SOLO_5x5",
@@ -56,10 +48,18 @@
         {
           "queueType": "RANKED_SOLO_5x5",
           "label": "Solo/Duo",
-          "tier": "DIAMOND",
+          "tier": "MASTER",
           "division": "I",
-          "leaguePoints": 78,
-          "winRate": 52
+          "leaguePoints": 46,
+          "winRate": 53
+        },
+        {
+          "queueType": "RANKED_PREMADE_5x5",
+          "label": "RANKED_PREMADE_5x5",
+          "tier": "DIAMOND",
+          "division": "III",
+          "leaguePoints": 26,
+          "winRate": 56
         }
       ]
     },
