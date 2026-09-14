@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T21:19:53.342Z",
+  "fetchedAt": "2026-09-14T00:00:06.403Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5641567284",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Ambessa",
+          "role": "Top",
+          "win": true,
+          "kills": 7,
+          "deaths": 4,
+          "assists": 9,
+          "kda": 4,
+          "csPerMin": 7.8,
+          "killParticipation": 46,
+          "damagePerMin": 1128,
+          "visionScore": 40,
+          "durationSeconds": 2055,
+          "playedAt": "2026-09-13T23:19:53.336Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (7/4/9) and solid kill involvement (46% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5641466887",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -136,31 +161,6 @@
           "reason": "Lost with a rough KDA (3/5/2) and middling kill involvement (29% of team kills). A rough KDA held the grade back.",
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5641429015",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Maokai",
-          "role": "Support",
-          "win": true,
-          "kills": 3,
-          "deaths": 5,
-          "assists": 25,
-          "kda": 5.6,
-          "csPerMin": 1,
-          "killParticipation": 72,
-          "damagePerMin": 529,
-          "visionScore": 52,
-          "durationSeconds": 1625,
-          "playedAt": "2026-09-13T19:23:29.953Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an excellent KDA (3/5/25) and constant kill involvement (72% of team kills). An excellent KDA carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
