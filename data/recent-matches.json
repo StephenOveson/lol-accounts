@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T00:20:46.835Z",
+  "fetchedAt": "2026-09-17T05:55:45.481Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,54 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5643591635",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Jinx",
+          "role": "Bottom",
+          "win": false,
+          "kills": 7,
+          "deaths": 7,
+          "assists": 3,
+          "kda": 1.43,
+          "csPerMin": 9.1,
+          "killParticipation": 45,
+          "damagePerMin": 979,
+          "visionScore": 19,
+          "durationSeconds": 1693,
+          "playedAt": "2026-09-17T04:02:10.798Z",
+          "rating": 6.7,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with a rough KDA (7/7/3) and solid kill involvement (45% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
+          "matchId": "NA1_5643588117",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Shyvana",
+          "role": "Top",
+          "win": false,
+          "kills": 0,
+          "deaths": 0,
+          "assists": 0,
+          "kda": 0,
+          "csPerMin": 0,
+          "killParticipation": 0,
+          "damagePerMin": 0,
+          "visionScore": 0,
+          "durationSeconds": 68,
+          "playedAt": "2026-09-17T03:28:28.926Z",
+          "rating": null,
+          "grade": null,
+          "remake": true,
+          "reason": "Game ended in the first few minutes (remake or early disconnect) — not enough played to grade.",
+          "tips": []
+        },
+        {
           "matchId": "NA1_5642944709",
           "queueId": 440,
           "mode": "Ranked Flex",
@@ -111,56 +159,6 @@
           "reason": "Won with an excellent KDA (11/3/8) and solid kill involvement (56% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5642919619",
-          "queueId": 440,
-          "mode": "Ranked Flex",
-          "championName": "Gangplank",
-          "role": "Top",
-          "win": true,
-          "kills": 5,
-          "deaths": 4,
-          "assists": 10,
-          "kda": 3.75,
-          "csPerMin": 9.6,
-          "killParticipation": 43,
-          "damagePerMin": 947,
-          "visionScore": 21,
-          "durationSeconds": 1633,
-          "playedAt": "2026-09-16T02:09:36.411Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (5/4/10) and middling kill involvement (43% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5642888643",
-          "queueId": 440,
-          "mode": "Ranked Flex",
-          "championName": "Renekton",
-          "role": "Top",
-          "win": false,
-          "kills": 3,
-          "deaths": 6,
-          "assists": 2,
-          "kda": 0.83,
-          "csPerMin": 8.3,
-          "killParticipation": 28,
-          "damagePerMin": 938,
-          "visionScore": 20,
-          "durationSeconds": 1563,
-          "playedAt": "2026-09-16T01:37:08.662Z",
-          "rating": 6,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (3/6/2) and middling kill involvement (28% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
