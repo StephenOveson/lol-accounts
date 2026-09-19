@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T17:53:33.064Z",
+  "fetchedAt": "2026-09-19T20:21:54.027Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,32 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5645075944",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Mordekaiser",
+          "role": "Top",
+          "win": true,
+          "kills": 0,
+          "deaths": 2,
+          "assists": 0,
+          "kda": 0,
+          "csPerMin": 2.5,
+          "killParticipation": 0,
+          "damagePerMin": 85,
+          "visionScore": 9,
+          "durationSeconds": 2055,
+          "playedAt": "2026-09-19T18:27:37.952Z",
+          "rating": 5.4,
+          "grade": "C",
+          "remake": false,
+          "reason": "Won with a rough KDA (0/2/0) and little kill involvement (0% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
+            "Take more fights when you're ahead and prioritize itemizing for damage, not just survivability."
+          ]
+        },
+        {
           "matchId": "NA1_5644778981",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -134,31 +160,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an excellent KDA (7/3/9) and middling kill involvement (44% of team kills). An excellent KDA carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5644666288",
-          "queueId": 710,
-          "mode": "Queue 710",
-          "championName": "Renekton",
-          "role": "Top",
-          "win": true,
-          "kills": 6,
-          "deaths": 6,
-          "assists": 13,
-          "kda": 3.17,
-          "csPerMin": 8.7,
-          "killParticipation": 54,
-          "damagePerMin": 745,
-          "visionScore": 61,
-          "durationSeconds": 2547,
-          "playedAt": "2026-09-19T02:21:19.531Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (6/6/13) and solid kill involvement (54% of team kills). Excellent farm carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
