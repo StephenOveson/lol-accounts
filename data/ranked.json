@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-20T00:34:41.706Z",
+  "fetchedAt": "2026-09-20T05:38:27.557Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -56,10 +56,10 @@
         {
           "queueType": "RANKED_PREMADE_5x5",
           "label": "RANKED_PREMADE_5x5",
-          "tier": "DIAMOND",
+          "tier": "MASTER",
           "division": "I",
-          "leaguePoints": 49,
-          "winRate": 67
+          "leaguePoints": 24,
+          "winRate": 69
         }
       ]
     },
