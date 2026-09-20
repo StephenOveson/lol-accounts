@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-20T15:48:08.029Z",
+  "fetchedAt": "2026-09-20T18:36:36.026Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5645747513",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Jhin",
+          "role": "Top",
+          "win": false,
+          "kills": 3,
+          "deaths": 1,
+          "assists": 0,
+          "kda": 3,
+          "csPerMin": 5.8,
+          "killParticipation": 38,
+          "damagePerMin": 383,
+          "visionScore": 7,
+          "durationSeconds": 671,
+          "playedAt": "2026-09-20T18:10:39.300Z",
+          "rating": 5.4,
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a solid KDA (3/1/0) and middling kill involvement (38% of team kills).",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5645455704",
           "queueId": 710,
           "mode": "Queue 710",
@@ -137,31 +162,6 @@
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
             "Take more fights when you're ahead and prioritize itemizing for damage, not just survivability."
-          ]
-        },
-        {
-          "matchId": "NA1_5644778981",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Ambessa",
-          "role": "Top",
-          "win": true,
-          "kills": 8,
-          "deaths": 3,
-          "assists": 5,
-          "kda": 4.33,
-          "csPerMin": 6.1,
-          "killParticipation": 32,
-          "damagePerMin": 653,
-          "visionScore": 30,
-          "durationSeconds": 2038,
-          "playedAt": "2026-09-19T04:19:51.625Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (8/3/5) and middling kill involvement (32% of team kills).",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
