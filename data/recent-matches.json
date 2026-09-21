@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-20T21:21:13.233Z",
+  "fetchedAt": "2026-09-21T00:00:31.825Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5645916501",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "KogMaw",
+          "role": "Bottom",
+          "win": true,
+          "kills": 15,
+          "deaths": 9,
+          "assists": 18,
+          "kda": 3.67,
+          "csPerMin": 6.7,
+          "killParticipation": 57,
+          "damagePerMin": 1484,
+          "visionScore": 24,
+          "durationSeconds": 2658,
+          "playedAt": "2026-09-20T23:40:53.071Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (15/9/18) and solid kill involvement (57% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5645816395",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -134,31 +159,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an excellent KDA (11/3/9) and solid kill involvement (47% of team kills). An excellent KDA carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5645752530",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Kaisa",
-          "role": "Top",
-          "win": false,
-          "kills": 8,
-          "deaths": 10,
-          "assists": 11,
-          "kda": 1.9,
-          "csPerMin": 6,
-          "killParticipation": 38,
-          "damagePerMin": 981,
-          "visionScore": 29,
-          "durationSeconds": 2022,
-          "playedAt": "2026-09-20T18:48:53.345Z",
-          "rating": 6.4,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with an even KDA (8/10/11) and middling kill involvement (38% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
