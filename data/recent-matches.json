@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-22T14:33:37.084Z",
+  "fetchedAt": "2026-09-22T18:40:09.258Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -306,6 +306,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5646975268",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Ambessa",
+          "role": "Top",
+          "win": true,
+          "kills": 5,
+          "deaths": 8,
+          "assists": 14,
+          "kda": 2.38,
+          "csPerMin": 6.8,
+          "killParticipation": 58,
+          "damagePerMin": 985,
+          "visionScore": 30,
+          "durationSeconds": 1893,
+          "playedAt": "2026-09-22T17:21:35.449Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (5/8/14) and solid kill involvement (58% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
+          "matchId": "NA1_5646966060",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Camille",
+          "role": "Top",
+          "win": false,
+          "kills": 4,
+          "deaths": 9,
+          "assists": 3,
+          "kda": 0.78,
+          "csPerMin": 7.2,
+          "killParticipation": 27,
+          "damagePerMin": 554,
+          "visionScore": 29,
+          "durationSeconds": 2039,
+          "playedAt": "2026-09-22T16:43:07.482Z",
+          "rating": 4.8,
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a rough KDA (4/9/3) and middling kill involvement (27% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
           "matchId": "NA1_5615738010",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -329,57 +379,6 @@
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
             "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5615725034",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Renekton",
-          "role": "Top",
-          "win": false,
-          "kills": 0,
-          "deaths": 6,
-          "assists": 4,
-          "kda": 0.67,
-          "csPerMin": 6.9,
-          "killParticipation": 24,
-          "damagePerMin": 524,
-          "visionScore": 22,
-          "durationSeconds": 1666,
-          "playedAt": "2026-08-05T19:33:21.686Z",
-          "rating": 4.5,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (0/6/4) and little kill involvement (24% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5615710836",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Camille",
-          "role": "Top",
-          "win": false,
-          "kills": 4,
-          "deaths": 8,
-          "assists": 5,
-          "kda": 1.13,
-          "csPerMin": 5.9,
-          "killParticipation": 38,
-          "damagePerMin": 525,
-          "visionScore": 26,
-          "durationSeconds": 1753,
-          "playedAt": "2026-08-05T18:59:47.359Z",
-          "rating": 4.9,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (4/8/5) and middling kill involvement (38% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
