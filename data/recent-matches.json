@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-23T20:04:35.554Z",
+  "fetchedAt": "2026-09-23T23:30:52.978Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -306,6 +306,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5647608356",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Garen",
+          "role": "Top",
+          "win": true,
+          "kills": 8,
+          "deaths": 6,
+          "assists": 9,
+          "kda": 2.83,
+          "csPerMin": 8.4,
+          "killParticipation": 47,
+          "damagePerMin": 1015,
+          "visionScore": 25,
+          "durationSeconds": 2148,
+          "playedAt": "2026-09-23T20:44:03.583Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (8/6/9) and solid kill involvement (47% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5646975268",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -353,32 +378,6 @@
           "reason": "Lost with a rough KDA (4/9/3) and middling kill involvement (27% of team kills). A rough KDA held the grade back.",
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5615738010",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Ziggs",
-          "role": "Bottom",
-          "win": false,
-          "kills": 0,
-          "deaths": 2,
-          "assists": 0,
-          "kda": 0,
-          "csPerMin": 9.7,
-          "killParticipation": 0,
-          "damagePerMin": 431,
-          "visionScore": 4,
-          "durationSeconds": 674,
-          "playedAt": "2026-08-05T19:49:54.938Z",
-          "rating": 3.4,
-          "grade": "D",
-          "remake": false,
-          "reason": "Lost with a rough KDA (0/2/0) and little kill involvement (0% of team kills). The standout was excellent farm, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
           ]
         }
       ]
