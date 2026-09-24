@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-24T00:17:56.301Z",
+  "fetchedAt": "2026-09-24T05:46:49.493Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -88,17 +88,17 @@
       "gameName": "spiritb4ker",
       "tagLine": "NA1",
       "tier": "DIAMOND",
-      "division": "IV",
-      "leaguePoints": 10,
-      "winRate": 50,
+      "division": "III",
+      "leaguePoints": 13,
+      "winRate": 51,
       "ranks": [
         {
           "queueType": "RANKED_SOLO_5x5",
           "label": "Solo/Duo",
           "tier": "DIAMOND",
-          "division": "IV",
-          "leaguePoints": 10,
-          "winRate": 50
+          "division": "III",
+          "leaguePoints": 13,
+          "winRate": 51
         }
       ]
     },
