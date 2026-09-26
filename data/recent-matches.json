@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-26T16:59:37.176Z",
+  "fetchedAt": "2026-09-26T19:44:43.264Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5649406377",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Naafiri",
+          "role": "Top",
+          "win": false,
+          "kills": 2,
+          "deaths": 3,
+          "assists": 1,
+          "kda": 1,
+          "csPerMin": 8.4,
+          "killParticipation": 43,
+          "damagePerMin": 586,
+          "visionScore": 10,
+          "durationSeconds": 934,
+          "playedAt": "2026-09-26T19:37:42.586Z",
+          "rating": 5.5,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with a rough KDA (2/3/1) and middling kill involvement (43% of team kills). The standout was excellent farm, though a rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
+          "matchId": "NA1_5649400803",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Akshan",
+          "role": "Top",
+          "win": true,
+          "kills": 13,
+          "deaths": 4,
+          "assists": 4,
+          "kda": 4.25,
+          "csPerMin": 7.5,
+          "killParticipation": 59,
+          "damagePerMin": 1157,
+          "visionScore": 13,
+          "durationSeconds": 1471,
+          "playedAt": "2026-09-26T19:16:58.344Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (13/4/4) and solid kill involvement (59% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5649012328",
           "queueId": 3130,
           "mode": "Queue 3130",
@@ -109,57 +159,6 @@
           "grade": "C",
           "remake": false,
           "reason": "Lost with a rough KDA (1/4/2) and little kill involvement (18% of team kills). The standout was excellent farm, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5648950369",
-          "queueId": 3130,
-          "mode": "Queue 3130",
-          "championName": "Camille",
-          "role": "Top",
-          "win": false,
-          "kills": 4,
-          "deaths": 7,
-          "assists": 7,
-          "kda": 1.57,
-          "csPerMin": 7.9,
-          "killParticipation": 52,
-          "damagePerMin": 890,
-          "visionScore": 38,
-          "durationSeconds": 1859,
-          "playedAt": "2026-09-26T02:00:13.788Z",
-          "rating": 7.1,
-          "grade": "A",
-          "remake": false,
-          "reason": "Lost with an even KDA (4/7/7) and solid kill involvement (52% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5648901435",
-          "queueId": 3130,
-          "mode": "Queue 3130",
-          "championName": "Ambessa",
-          "role": "Top",
-          "win": false,
-          "kills": 0,
-          "deaths": 1,
-          "assists": 0,
-          "kda": 0,
-          "csPerMin": 8.7,
-          "killParticipation": 0,
-          "damagePerMin": 372,
-          "visionScore": 3,
-          "durationSeconds": 471,
-          "playedAt": "2026-09-26T00:50:15.035Z",
-          "rating": 3.2,
-          "grade": "D",
-          "remake": false,
-          "reason": "Lost with a rough KDA (0/1/0) and little kill involvement (0% of team kills). The standout was excellent farm, though a rough KDA held the grade back.",
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
             "Group with teammates for fights and objectives instead of playing them out solo."
