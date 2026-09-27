@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-27T01:14:54.043Z",
+  "fetchedAt": "2026-09-27T07:54:27.226Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5649671693",
+          "queueId": 710,
+          "mode": "Queue 710",
+          "championName": "Thresh",
+          "role": "Support",
+          "win": false,
+          "kills": 1,
+          "deaths": 4,
+          "assists": 10,
+          "kda": 2.75,
+          "csPerMin": 0.6,
+          "killParticipation": 37,
+          "damagePerMin": 182,
+          "visionScore": 25,
+          "durationSeconds": 1850,
+          "playedAt": "2026-09-27T03:13:51.383Z",
+          "rating": 3.3,
+          "grade": "D",
+          "remake": false,
+          "reason": "Lost with an even KDA (1/4/10) and middling kill involvement (37% of team kills). Low damage output held the grade back.",
+          "tips": [
+            "Take more fights when you're ahead and prioritize itemizing for damage, not just survivability."
+          ]
+        },
+        {
+          "matchId": "NA1_5649642018",
+          "queueId": 710,
+          "mode": "Queue 710",
+          "championName": "Gangplank",
+          "role": "Top",
+          "win": true,
+          "kills": 2,
+          "deaths": 9,
+          "assists": 17,
+          "kda": 2.11,
+          "csPerMin": 7.5,
+          "killParticipation": 53,
+          "damagePerMin": 1055,
+          "visionScore": 30,
+          "durationSeconds": 2188,
+          "playedAt": "2026-09-27T02:33:00.038Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (2/9/17) and solid kill involvement (53% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5649527853",
           "queueId": 710,
           "mode": "Queue 710",
@@ -112,56 +162,6 @@
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
             "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5649406377",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Naafiri",
-          "role": "Top",
-          "win": false,
-          "kills": 2,
-          "deaths": 3,
-          "assists": 1,
-          "kda": 1,
-          "csPerMin": 8.4,
-          "killParticipation": 43,
-          "damagePerMin": 586,
-          "visionScore": 10,
-          "durationSeconds": 934,
-          "playedAt": "2026-09-26T19:37:42.586Z",
-          "rating": 5.5,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (2/3/1) and middling kill involvement (43% of team kills). The standout was excellent farm, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5649400803",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Akshan",
-          "role": "Top",
-          "win": true,
-          "kills": 13,
-          "deaths": 4,
-          "assists": 4,
-          "kda": 4.25,
-          "csPerMin": 7.5,
-          "killParticipation": 59,
-          "damagePerMin": 1157,
-          "visionScore": 13,
-          "durationSeconds": 1471,
-          "playedAt": "2026-09-26T19:16:58.344Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (13/4/4) and solid kill involvement (59% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
