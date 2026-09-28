@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-27T21:57:11.709Z",
+  "fetchedAt": "2026-09-28T00:31:23.789Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5650251132",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Volibear",
+          "role": "Top",
+          "win": false,
+          "kills": 6,
+          "deaths": 9,
+          "assists": 3,
+          "kda": 1,
+          "csPerMin": 6,
+          "killParticipation": 31,
+          "damagePerMin": 892,
+          "visionScore": 36,
+          "durationSeconds": 2190,
+          "playedAt": "2026-09-28T00:20:21.093Z",
+          "rating": 5.7,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with a rough KDA (6/9/3) and middling kill involvement (31% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
+          "matchId": "NA1_5650189545",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Ambessa",
+          "role": "Top",
+          "win": true,
+          "kills": 4,
+          "deaths": 7,
+          "assists": 8,
+          "kda": 1.71,
+          "csPerMin": 7.4,
+          "killParticipation": 43,
+          "damagePerMin": 1471,
+          "visionScore": 25,
+          "durationSeconds": 1764,
+          "playedAt": "2026-09-27T22:42:58.586Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (4/7/8) and middling kill involvement (43% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5650131582",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -109,56 +159,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an even KDA (3/6/10) and middling kill involvement (32% of team kills).",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5650109254",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Ambessa",
-          "role": "Top",
-          "win": true,
-          "kills": 2,
-          "deaths": 2,
-          "assists": 6,
-          "kda": 4,
-          "csPerMin": 9,
-          "killParticipation": 38,
-          "damagePerMin": 971,
-          "visionScore": 14,
-          "durationSeconds": 1179,
-          "playedAt": "2026-09-27T20:16:03.653Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (2/2/6) and middling kill involvement (38% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5650096867",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Rumble",
-          "role": "Top",
-          "win": true,
-          "kills": 3,
-          "deaths": 4,
-          "assists": 6,
-          "kda": 2.25,
-          "csPerMin": 8.2,
-          "killParticipation": 30,
-          "damagePerMin": 783,
-          "visionScore": 19,
-          "durationSeconds": 1528,
-          "playedAt": "2026-09-27T19:50:24.715Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (3/4/6) and middling kill involvement (30% of team kills). Excellent farm carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
