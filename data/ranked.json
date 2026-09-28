@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-28T03:11:20.736Z",
+  "fetchedAt": "2026-09-28T10:25:27.836Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -38,12 +38,12 @@
           "winRate": 55
         },
         {
-          "queueType": "RANKED_PREMADE_5x5",
-          "label": "RANKED_PREMADE_5x5",
-          "tier": "MASTER",
-          "division": "I",
-          "leaguePoints": 69,
-          "winRate": 71
+          "queueType": "JADE_RANKED_SOLO_5x5",
+          "label": "JADE_RANKED_SOLO_5x5",
+          "tier": "SALT",
+          "division": "III",
+          "leaguePoints": 1,
+          "winRate": 33
         },
         {
           "queueType": "RANKED_SOLO_5x5",
@@ -54,12 +54,12 @@
           "winRate": 56
         },
         {
-          "queueType": "JADE_RANKED_SOLO_5x5",
-          "label": "JADE_RANKED_SOLO_5x5",
-          "tier": "SALT",
-          "division": "III",
-          "leaguePoints": 1,
-          "winRate": 33
+          "queueType": "RANKED_PREMADE_5x5",
+          "label": "RANKED_PREMADE_5x5",
+          "tier": "MASTER",
+          "division": "I",
+          "leaguePoints": 69,
+          "winRate": 71
         }
       ]
     },
@@ -106,17 +106,17 @@
       "docId": "grabpatch",
       "gameName": "grabpatch",
       "tagLine": "NA1",
-      "tier": "DIAMOND",
-      "division": "IV",
-      "leaguePoints": 29,
+      "tier": "EMERALD",
+      "division": "I",
+      "leaguePoints": 75,
       "winRate": 59,
       "ranks": [
         {
           "queueType": "RANKED_SOLO_5x5",
           "label": "Solo/Duo",
-          "tier": "DIAMOND",
-          "division": "IV",
-          "leaguePoints": 29,
+          "tier": "EMERALD",
+          "division": "I",
+          "leaguePoints": 75,
           "winRate": 59
         }
       ]
