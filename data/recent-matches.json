@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T01:40:45.499Z",
+  "fetchedAt": "2026-09-29T08:12:04.156Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5651035521",
+          "queueId": 440,
+          "mode": "Ranked Flex",
+          "championName": "Shen",
+          "role": "Top",
+          "win": true,
+          "kills": 8,
+          "deaths": 3,
+          "assists": 11,
+          "kda": 6.33,
+          "csPerMin": 7.3,
+          "killParticipation": 61,
+          "damagePerMin": 1041,
+          "visionScore": 19,
+          "durationSeconds": 1371,
+          "playedAt": "2026-09-29T04:12:06.368Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (8/3/11) and solid kill involvement (61% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5650380465",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -134,31 +159,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with a solid KDA (16/5/8) and middling kill involvement (41% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5650303994",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Gragas",
-          "role": "Top",
-          "win": true,
-          "kills": 7,
-          "deaths": 7,
-          "assists": 13,
-          "kda": 2.86,
-          "csPerMin": 6.9,
-          "killParticipation": 42,
-          "damagePerMin": 1154,
-          "visionScore": 15,
-          "durationSeconds": 1935,
-          "playedAt": "2026-09-28T01:14:19.813Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (7/7/13) and middling kill involvement (42% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
