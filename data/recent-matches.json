@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T16:59:34.709Z",
+  "fetchedAt": "2026-10-01T21:46:41.608Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5652444533",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Gnar",
+          "role": "Top",
+          "win": true,
+          "kills": 4,
+          "deaths": 4,
+          "assists": 5,
+          "kda": 2.25,
+          "csPerMin": 9.3,
+          "killParticipation": 25,
+          "damagePerMin": 721,
+          "visionScore": 17,
+          "durationSeconds": 1569,
+          "playedAt": "2026-10-01T19:23:11.965Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (4/4/5) and middling kill involvement (25% of team kills). Excellent farm carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5652139909",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -136,31 +161,6 @@
           "reason": "Won with an even KDA (6/6/11) and middling kill involvement (40% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5652077248",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Garen",
-          "role": "Top",
-          "win": true,
-          "kills": 8,
-          "deaths": 2,
-          "assists": 1,
-          "kda": 4.5,
-          "csPerMin": 11.8,
-          "killParticipation": 22,
-          "damagePerMin": 746,
-          "visionScore": 15,
-          "durationSeconds": 1469,
-          "playedAt": "2026-10-01T01:40:15.316Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (8/2/1) and little kill involvement (22% of team kills). The standout was excellent farm, though little kill involvement held the grade back.",
-          "tips": [
-            "Group with teammates for fights and objectives instead of playing them out solo."
           ]
         }
       ]
@@ -308,6 +308,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5652485332",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Rumble",
+          "role": "Top",
+          "win": false,
+          "kills": 10,
+          "deaths": 8,
+          "assists": 12,
+          "kda": 2.75,
+          "csPerMin": 7.9,
+          "killParticipation": 54,
+          "damagePerMin": 1185,
+          "visionScore": 31,
+          "durationSeconds": 2482,
+          "playedAt": "2026-10-01T21:21:25.591Z",
+          "rating": 7.6,
+          "grade": "A",
+          "remake": false,
+          "reason": "Lost with an even KDA (10/8/12) and solid kill involvement (54% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
+          "matchId": "NA1_5652475018",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Renekton",
+          "role": "Top",
+          "win": false,
+          "kills": 6,
+          "deaths": 5,
+          "assists": 4,
+          "kda": 2,
+          "csPerMin": 7.2,
+          "killParticipation": 31,
+          "damagePerMin": 664,
+          "visionScore": 33,
+          "durationSeconds": 1840,
+          "playedAt": "2026-10-01T20:31:16.305Z",
+          "rating": 6,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with an even KDA (6/5/4) and middling kill involvement (31% of team kills).",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5648796402",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -330,56 +380,6 @@
           "reason": "Won with an excellent KDA (8/6/22) and constant kill involvement (68% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5648769125",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Ambessa",
-          "role": "Top",
-          "win": false,
-          "kills": 6,
-          "deaths": 9,
-          "assists": 7,
-          "kda": 1.44,
-          "csPerMin": 6.1,
-          "killParticipation": 52,
-          "damagePerMin": 1181,
-          "visionScore": 43,
-          "durationSeconds": 2488,
-          "playedAt": "2026-09-25T20:34:57.307Z",
-          "rating": 6.5,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (6/9/7) and solid kill involvement (52% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5648745959",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Ambessa",
-          "role": "Top",
-          "win": false,
-          "kills": 11,
-          "deaths": 14,
-          "assists": 9,
-          "kda": 1.43,
-          "csPerMin": 5.7,
-          "killParticipation": 41,
-          "damagePerMin": 1299,
-          "visionScore": 19,
-          "durationSeconds": 2133,
-          "playedAt": "2026-09-25T19:37:56.541Z",
-          "rating": 5.9,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (11/14/9) and middling kill involvement (41% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
