@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T02:01:54.784Z",
+  "fetchedAt": "2026-10-01T09:57:03.182Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5652139909",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Vi",
+          "role": "Top",
+          "win": true,
+          "kills": 15,
+          "deaths": 8,
+          "assists": 8,
+          "kda": 2.88,
+          "csPerMin": 7.6,
+          "killParticipation": 43,
+          "damagePerMin": 993,
+          "visionScore": 32,
+          "durationSeconds": 2201,
+          "playedAt": "2026-10-01T03:03:42.367Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (15/8/8) and middling kill involvement (43% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
+          "matchId": "NA1_5652105226",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Kaisa",
+          "role": "Top",
+          "win": true,
+          "kills": 6,
+          "deaths": 6,
+          "assists": 11,
+          "kda": 2.83,
+          "csPerMin": 7.7,
+          "killParticipation": 40,
+          "damagePerMin": 1214,
+          "visionScore": 28,
+          "durationSeconds": 1831,
+          "playedAt": "2026-10-01T02:21:53.659Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (6/6/11) and middling kill involvement (40% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5652077248",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -111,57 +161,6 @@
           "reason": "Won with a solid KDA (8/2/1) and little kill involvement (22% of team kills). The standout was excellent farm, though little kill involvement held the grade back.",
           "tips": [
             "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5651650651",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Akshan",
-          "role": "Top",
-          "win": false,
-          "kills": 3,
-          "deaths": 10,
-          "assists": 1,
-          "kda": 0.4,
-          "csPerMin": 5.9,
-          "killParticipation": 17,
-          "damagePerMin": 567,
-          "visionScore": 22,
-          "durationSeconds": 1733,
-          "playedAt": "2026-09-30T04:59:50.135Z",
-          "rating": 4,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (3/10/1) and little kill involvement (17% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5651613723",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Caitlyn",
-          "role": "Bottom",
-          "win": true,
-          "kills": 17,
-          "deaths": 8,
-          "assists": 5,
-          "kda": 2.75,
-          "csPerMin": 8.3,
-          "killParticipation": 50,
-          "damagePerMin": 1606,
-          "visionScore": 38,
-          "durationSeconds": 2355,
-          "playedAt": "2026-09-30T04:25:07.646Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (17/8/5) and solid kill involvement (50% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
