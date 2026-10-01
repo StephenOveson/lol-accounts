@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T22:58:13.502Z",
+  "fetchedAt": "2026-10-01T02:01:54.784Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5652077248",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Garen",
+          "role": "Top",
+          "win": true,
+          "kills": 8,
+          "deaths": 2,
+          "assists": 1,
+          "kda": 4.5,
+          "csPerMin": 11.8,
+          "killParticipation": 22,
+          "damagePerMin": 746,
+          "visionScore": 15,
+          "durationSeconds": 1469,
+          "playedAt": "2026-10-01T01:40:15.316Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (8/2/1) and little kill involvement (22% of team kills). The standout was excellent farm, though little kill involvement held the grade back.",
+          "tips": [
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
+        },
+        {
           "matchId": "NA1_5651650651",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -135,31 +160,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an even KDA (17/8/5) and solid kill involvement (50% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5651035521",
-          "queueId": 440,
-          "mode": "Ranked Flex",
-          "championName": "Shen",
-          "role": "Top",
-          "win": true,
-          "kills": 8,
-          "deaths": 3,
-          "assists": 11,
-          "kda": 6.33,
-          "csPerMin": 7.3,
-          "killParticipation": 61,
-          "damagePerMin": 1041,
-          "visionScore": 19,
-          "durationSeconds": 1371,
-          "playedAt": "2026-09-29T04:12:06.368Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an excellent KDA (8/3/11) and solid kill involvement (61% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
