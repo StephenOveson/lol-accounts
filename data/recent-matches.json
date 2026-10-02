@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-02T01:28:42.000Z",
+  "fetchedAt": "2026-10-02T08:14:47.883Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5652756418",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Jayce",
+          "role": "Top",
+          "win": false,
+          "kills": 2,
+          "deaths": 11,
+          "assists": 7,
+          "kda": 0.82,
+          "csPerMin": 6.6,
+          "killParticipation": 32,
+          "damagePerMin": 941,
+          "visionScore": 46,
+          "durationSeconds": 2235,
+          "playedAt": "2026-10-02T04:25:36.325Z",
+          "rating": 5.9,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with a rough KDA (2/11/7) and middling kill involvement (32% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
+          "matchId": "NA1_5652694146",
+          "queueId": 440,
+          "mode": "Ranked Flex",
+          "championName": "Briar",
+          "role": "Top",
+          "win": false,
+          "kills": 13,
+          "deaths": 8,
+          "assists": 5,
+          "kda": 2.25,
+          "csPerMin": 6.4,
+          "killParticipation": 46,
+          "damagePerMin": 919,
+          "visionScore": 32,
+          "durationSeconds": 1991,
+          "playedAt": "2026-10-02T02:58:15.593Z",
+          "rating": 6.9,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with an even KDA (13/8/5) and solid kill involvement (46% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5652444533",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -109,56 +159,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an even KDA (4/4/5) and middling kill involvement (25% of team kills). Excellent farm carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5652139909",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Vi",
-          "role": "Top",
-          "win": true,
-          "kills": 15,
-          "deaths": 8,
-          "assists": 8,
-          "kda": 2.88,
-          "csPerMin": 7.6,
-          "killParticipation": 43,
-          "damagePerMin": 993,
-          "visionScore": 32,
-          "durationSeconds": 2201,
-          "playedAt": "2026-10-01T03:03:42.367Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (15/8/8) and middling kill involvement (43% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5652105226",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Kaisa",
-          "role": "Top",
-          "win": true,
-          "kills": 6,
-          "deaths": 6,
-          "assists": 11,
-          "kda": 2.83,
-          "csPerMin": 7.7,
-          "killParticipation": 40,
-          "damagePerMin": 1214,
-          "visionScore": 28,
-          "durationSeconds": 1831,
-          "playedAt": "2026-10-01T02:21:53.659Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (6/6/11) and middling kill involvement (40% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
