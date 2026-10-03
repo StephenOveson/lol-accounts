@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T01:39:43.980Z",
+  "fetchedAt": "2026-10-03T07:28:38.523Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -26,25 +26,9 @@
       "tagLine": "NA1",
       "tier": "MASTER",
       "division": "I",
-      "leaguePoints": 229,
+      "leaguePoints": 260,
       "winRate": 56,
       "ranks": [
-        {
-          "queueType": "RANKED_SOLO_5x5",
-          "label": "Solo/Duo",
-          "tier": "MASTER",
-          "division": "I",
-          "leaguePoints": 229,
-          "winRate": 56
-        },
-        {
-          "queueType": "RANKED_PREMADE_5x5",
-          "label": "RANKED_PREMADE_5x5",
-          "tier": "MASTER",
-          "division": "I",
-          "leaguePoints": 69,
-          "winRate": 71
-        },
         {
           "queueType": "JADE_RANKED_SOLO_5x5",
           "label": "JADE_RANKED_SOLO_5x5",
@@ -54,12 +38,28 @@
           "winRate": 33
         },
         {
+          "queueType": "RANKED_SOLO_5x5",
+          "label": "Solo/Duo",
+          "tier": "MASTER",
+          "division": "I",
+          "leaguePoints": 260,
+          "winRate": 56
+        },
+        {
           "queueType": "RANKED_FLEX_SR",
           "label": "Flex",
           "tier": "DIAMOND",
           "division": "III",
           "leaguePoints": 28,
           "winRate": 54
+        },
+        {
+          "queueType": "RANKED_PREMADE_5x5",
+          "label": "RANKED_PREMADE_5x5",
+          "tier": "MASTER",
+          "division": "I",
+          "leaguePoints": 69,
+          "winRate": 71
         }
       ]
     },
@@ -88,16 +88,16 @@
       "gameName": "spiritb4ker",
       "tagLine": "NA1",
       "tier": "DIAMOND",
-      "division": "III",
-      "leaguePoints": 20,
+      "division": "IV",
+      "leaguePoints": 84,
       "winRate": 50,
       "ranks": [
         {
           "queueType": "RANKED_SOLO_5x5",
           "label": "Solo/Duo",
           "tier": "DIAMOND",
-          "division": "III",
-          "leaguePoints": 20,
+          "division": "IV",
+          "leaguePoints": 84,
           "winRate": 50
         }
       ]
