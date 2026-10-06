@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-06T02:48:58.664Z",
+  "fetchedAt": "2026-10-06T09:58:15.596Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5655274839",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Kaisa",
+          "role": "Bottom",
+          "win": true,
+          "kills": 5,
+          "deaths": 5,
+          "assists": 4,
+          "kda": 1.8,
+          "csPerMin": 8.3,
+          "killParticipation": 41,
+          "damagePerMin": 844,
+          "visionScore": 7,
+          "durationSeconds": 1229,
+          "playedAt": "2026-10-06T05:11:03.769Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (5/5/4) and middling kill involvement (41% of team kills). The standout was elite damage output, though neglected vision held the grade back.",
+          "tips": [
+            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
+          ]
+        },
+        {
+          "matchId": "NA1_5655235680",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Varus",
+          "role": "Top",
+          "win": true,
+          "kills": 5,
+          "deaths": 6,
+          "assists": 6,
+          "kda": 1.83,
+          "csPerMin": 8.1,
+          "killParticipation": 35,
+          "damagePerMin": 765,
+          "visionScore": 30,
+          "durationSeconds": 1740,
+          "playedAt": "2026-10-06T04:34:38.672Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (5/6/6) and middling kill involvement (35% of team kills). Excellent farm carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5655012400",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -109,56 +159,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an excellent KDA (9/0/5) and middling kill involvement (30% of team kills). An excellent KDA carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5654999240",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Elise",
-          "role": "Jungle",
-          "win": false,
-          "kills": 4,
-          "deaths": 9,
-          "assists": 2,
-          "kda": 0.67,
-          "csPerMin": 5.1,
-          "killParticipation": 25,
-          "damagePerMin": 441,
-          "visionScore": 25,
-          "durationSeconds": 1663,
-          "playedAt": "2026-10-05T22:45:27.095Z",
-          "rating": 3.9,
-          "grade": "D",
-          "remake": false,
-          "reason": "Lost with a rough KDA (4/9/2) and middling kill involvement (25% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5654578811",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Udyr",
-          "role": "Top",
-          "win": true,
-          "kills": 5,
-          "deaths": 5,
-          "assists": 5,
-          "kda": 2,
-          "csPerMin": 6.5,
-          "killParticipation": 25,
-          "damagePerMin": 621,
-          "visionScore": 20,
-          "durationSeconds": 1474,
-          "playedAt": "2026-10-05T02:11:16.333Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (5/5/5) and middling kill involvement (25% of team kills).",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
