@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T22:26:24.131Z",
+  "fetchedAt": "2026-10-06T02:48:58.664Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5655012400",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Ambessa",
+          "role": "Top",
+          "win": true,
+          "kills": 9,
+          "deaths": 0,
+          "assists": 5,
+          "kda": 14,
+          "csPerMin": 8.6,
+          "killParticipation": 30,
+          "damagePerMin": 971,
+          "visionScore": 26,
+          "durationSeconds": 1762,
+          "playedAt": "2026-10-05T23:18:58.527Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (9/0/5) and middling kill involvement (30% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
+          "matchId": "NA1_5654999240",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Elise",
+          "role": "Jungle",
+          "win": false,
+          "kills": 4,
+          "deaths": 9,
+          "assists": 2,
+          "kda": 0.67,
+          "csPerMin": 5.1,
+          "killParticipation": 25,
+          "damagePerMin": 441,
+          "visionScore": 25,
+          "durationSeconds": 1663,
+          "playedAt": "2026-10-05T22:45:27.095Z",
+          "rating": 3.9,
+          "grade": "D",
+          "remake": false,
+          "reason": "Lost with a rough KDA (4/9/2) and middling kill involvement (25% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
           "matchId": "NA1_5654578811",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -111,57 +161,6 @@
           "reason": "Won with an even KDA (5/5/5) and middling kill involvement (25% of team kills).",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5654547664",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Kayle",
-          "role": "Top",
-          "win": false,
-          "kills": 0,
-          "deaths": 4,
-          "assists": 0,
-          "kda": 0,
-          "csPerMin": 5.9,
-          "killParticipation": 0,
-          "damagePerMin": 390,
-          "visionScore": 13,
-          "durationSeconds": 966,
-          "playedAt": "2026-10-05T01:40:27.105Z",
-          "rating": 3,
-          "grade": "D",
-          "remake": false,
-          "reason": "Lost with a rough KDA (0/4/0) and little kill involvement (0% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5654530314",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Shyvana",
-          "role": "Top",
-          "win": false,
-          "kills": 3,
-          "deaths": 5,
-          "assists": 0,
-          "kda": 0.6,
-          "csPerMin": 6.3,
-          "killParticipation": 43,
-          "damagePerMin": 651,
-          "visionScore": 13,
-          "durationSeconds": 1025,
-          "playedAt": "2026-10-05T01:14:58.680Z",
-          "rating": 5,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (3/5/0) and middling kill involvement (43% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
