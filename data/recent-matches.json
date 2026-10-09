@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-08T21:55:00.814Z",
+  "fetchedAt": "2026-10-09T01:54:13.097Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5656687468",
+          "queueId": 3130,
+          "mode": "Queue 3130",
+          "championName": "Kaisa",
+          "role": "Top",
+          "win": false,
+          "kills": 13,
+          "deaths": 3,
+          "assists": 2,
+          "kda": 5,
+          "csPerMin": 9,
+          "killParticipation": 83,
+          "damagePerMin": 1714,
+          "visionScore": 35,
+          "durationSeconds": 2384,
+          "playedAt": "2026-10-09T00:56:59.450Z",
+          "rating": 9.4,
+          "grade": "S",
+          "remake": false,
+          "reason": "Lost with an excellent KDA (13/3/2) and constant kill involvement (83% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5656294715",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -134,31 +159,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an excellent KDA (5/2/5) and solid kill involvement (45% of team kills). An excellent KDA carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5656229696",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Varus",
-          "role": "Top",
-          "win": true,
-          "kills": 12,
-          "deaths": 7,
-          "assists": 14,
-          "kda": 3.71,
-          "csPerMin": 9.3,
-          "killParticipation": 45,
-          "damagePerMin": 1349,
-          "visionScore": 49,
-          "durationSeconds": 2362,
-          "playedAt": "2026-10-08T03:14:50.489Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (12/7/14) and middling kill involvement (45% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
