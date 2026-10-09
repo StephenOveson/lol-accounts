@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-09T01:54:13.097Z",
+  "fetchedAt": "2026-10-09T08:45:37.241Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5656762355",
+          "queueId": 440,
+          "mode": "Ranked Flex",
+          "championName": "Viego",
+          "role": "Top",
+          "win": true,
+          "kills": 15,
+          "deaths": 12,
+          "assists": 14,
+          "kda": 2.42,
+          "csPerMin": 5.3,
+          "killParticipation": 45,
+          "damagePerMin": 1227,
+          "visionScore": 35,
+          "durationSeconds": 2634,
+          "playedAt": "2026-10-09T02:43:32.885Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (15/12/14) and solid kill involvement (45% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
+          "matchId": "NA1_5656734008",
+          "queueId": 3130,
+          "mode": "Queue 3130",
+          "championName": "Gangplank",
+          "role": "Top",
+          "win": false,
+          "kills": 4,
+          "deaths": 4,
+          "assists": 1,
+          "kda": 1.25,
+          "csPerMin": 9.1,
+          "killParticipation": 71,
+          "damagePerMin": 1016,
+          "visionScore": 27,
+          "durationSeconds": 1561,
+          "playedAt": "2026-10-09T01:53:48.787Z",
+          "rating": 7.3,
+          "grade": "A",
+          "remake": false,
+          "reason": "Lost with a rough KDA (4/4/1) and constant kill involvement (71% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
           "matchId": "NA1_5656687468",
           "queueId": 3130,
           "mode": "Queue 3130",
@@ -109,56 +159,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Lost with an excellent KDA (13/3/2) and constant kill involvement (83% of team kills). An excellent KDA carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5656294715",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Kaisa",
-          "role": "Top",
-          "win": true,
-          "kills": 5,
-          "deaths": 9,
-          "assists": 8,
-          "kda": 1.44,
-          "csPerMin": 8.3,
-          "killParticipation": 30,
-          "damagePerMin": 1018,
-          "visionScore": 33,
-          "durationSeconds": 2076,
-          "playedAt": "2026-10-08T04:27:42.055Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a rough KDA (5/9/8) and middling kill involvement (30% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5656272292",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Kaisa",
-          "role": "Top",
-          "win": true,
-          "kills": 5,
-          "deaths": 2,
-          "assists": 5,
-          "kda": 5,
-          "csPerMin": 9.3,
-          "killParticipation": 45,
-          "damagePerMin": 1320,
-          "visionScore": 17,
-          "durationSeconds": 1335,
-          "playedAt": "2026-10-08T03:44:51.513Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an excellent KDA (5/2/5) and solid kill involvement (45% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
@@ -308,6 +308,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5656836551",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Xayah",
+          "role": "Bottom",
+          "win": true,
+          "kills": 10,
+          "deaths": 2,
+          "assists": 7,
+          "kda": 8.5,
+          "csPerMin": 10.2,
+          "killParticipation": 71,
+          "damagePerMin": 1267,
+          "visionScore": 22,
+          "durationSeconds": 1501,
+          "playedAt": "2026-10-09T04:00:34.818Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (10/2/7) and constant kill involvement (71% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
+          "matchId": "NA1_5656820885",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Caitlyn",
+          "role": "Bottom",
+          "win": false,
+          "kills": 11,
+          "deaths": 6,
+          "assists": 4,
+          "kda": 2.5,
+          "csPerMin": 7.6,
+          "killParticipation": 83,
+          "damagePerMin": 818,
+          "visionScore": 20,
+          "durationSeconds": 1580,
+          "playedAt": "2026-10-09T03:31:01.793Z",
+          "rating": 7.6,
+          "grade": "A",
+          "remake": false,
+          "reason": "Lost with an even KDA (11/6/4) and constant kill involvement (83% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5654641466",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -330,56 +380,6 @@
           "reason": "Won with an excellent KDA (5/0/3) and middling kill involvement (36% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5654620935",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Kaisa",
-          "role": "Mid",
-          "win": true,
-          "kills": 9,
-          "deaths": 2,
-          "assists": 11,
-          "kda": 10,
-          "csPerMin": 10.4,
-          "killParticipation": 48,
-          "damagePerMin": 964,
-          "visionScore": 8,
-          "durationSeconds": 1620,
-          "playedAt": "2026-10-05T03:07:05.339Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an excellent KDA (9/2/11) and solid kill involvement (48% of team kills). The standout was an excellent KDA, though neglected vision held the grade back.",
-          "tips": [
-            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
-          ]
-        },
-        {
-          "matchId": "NA1_5654599910",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Akshan",
-          "role": "Mid",
-          "win": false,
-          "kills": 1,
-          "deaths": 4,
-          "assists": 1,
-          "kda": 0.5,
-          "csPerMin": 6.6,
-          "killParticipation": 40,
-          "damagePerMin": 488,
-          "visionScore": 8,
-          "durationSeconds": 918,
-          "playedAt": "2026-10-05T02:32:18.599Z",
-          "rating": 4.4,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (1/4/1) and middling kill involvement (40% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
