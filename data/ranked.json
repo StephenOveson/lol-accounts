@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T01:30:03.258Z",
+  "fetchedAt": "2026-10-11T08:11:15.076Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -30,12 +30,12 @@
       "winRate": 54,
       "ranks": [
         {
-          "queueType": "RANKED_PREMADE_5x5",
-          "label": "RANKED_PREMADE_5x5",
-          "tier": "MASTER",
-          "division": "I",
-          "leaguePoints": 118,
-          "winRate": 72
+          "queueType": "JADE_RANKED_SOLO_5x5",
+          "label": "JADE_RANKED_SOLO_5x5",
+          "tier": "SALT",
+          "division": "III",
+          "leaguePoints": 1,
+          "winRate": 33
         },
         {
           "queueType": "RANKED_SOLO_5x5",
@@ -46,20 +46,20 @@
           "winRate": 54
         },
         {
-          "queueType": "JADE_RANKED_SOLO_5x5",
-          "label": "JADE_RANKED_SOLO_5x5",
-          "tier": "SALT",
-          "division": "III",
-          "leaguePoints": 1,
-          "winRate": 33
+          "queueType": "RANKED_PREMADE_5x5",
+          "label": "RANKED_PREMADE_5x5",
+          "tier": "MASTER",
+          "division": "I",
+          "leaguePoints": 0,
+          "winRate": 62
         },
         {
           "queueType": "RANKED_FLEX_SR",
           "label": "Flex",
           "tier": "DIAMOND",
           "division": "III",
-          "leaguePoints": 53,
-          "winRate": 56
+          "leaguePoints": 38,
+          "winRate": 54
         }
       ]
     },
@@ -88,17 +88,17 @@
       "gameName": "spiritb4ker",
       "tagLine": "NA1",
       "tier": "DIAMOND",
-      "division": "IV",
-      "leaguePoints": 82,
-      "winRate": 49,
+      "division": "III",
+      "leaguePoints": 24,
+      "winRate": 50,
       "ranks": [
         {
           "queueType": "RANKED_SOLO_5x5",
           "label": "Solo/Duo",
           "tier": "DIAMOND",
-          "division": "IV",
-          "leaguePoints": 82,
-          "winRate": 49
+          "division": "III",
+          "leaguePoints": 24,
+          "winRate": 50
         }
       ]
     },
