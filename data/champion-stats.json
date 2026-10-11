@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-04T14:17:56.140Z",
+  "fetchedAt": "2026-10-11T15:03:55.965Z",
   "seasonStart": "2026-01-01T00:00:00.000Z",
   "accounts": [
     {
@@ -37,21 +37,21 @@
       "topChampions": [
         {
           "championName": "Ambessa",
-          "games": 16,
-          "wins": 14,
-          "winRate": 88
+          "games": 21,
+          "wins": 16,
+          "winRate": 76
         },
         {
           "championName": "Gangplank",
-          "games": 8,
-          "wins": 5,
-          "winRate": 63
+          "games": 6,
+          "wins": 3,
+          "winRate": 50
         },
         {
-          "championName": "Gragas",
-          "games": 5,
+          "championName": "Rumble",
+          "games": 4,
           "wins": 3,
-          "winRate": 60
+          "winRate": 75
         }
       ],
       "mainRole": "Top"
@@ -92,9 +92,9 @@
         },
         {
           "championName": "Gangplank",
-          "games": 6,
-          "wins": 5,
-          "winRate": 83
+          "games": 5,
+          "wins": 4,
+          "winRate": 80
         }
       ],
       "mainRole": "Top"
