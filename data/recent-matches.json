@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-10T22:22:17.892Z",
+  "fetchedAt": "2026-10-11T01:44:40.769Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5657955647",
+          "queueId": 1750,
+          "mode": "Queue 1750",
+          "championName": "Rumble",
+          "role": null,
+          "win": true,
+          "kills": 10,
+          "deaths": 6,
+          "assists": 21,
+          "kda": 5.17,
+          "csPerMin": 0,
+          "killParticipation": 30,
+          "damagePerMin": 2271,
+          "visionScore": 0,
+          "durationSeconds": 1628,
+          "playedAt": "2026-10-11T01:38:53.027Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (10/6/21) and middling kill involvement (30% of team kills). The standout was an excellent KDA, though neglected vision held the grade back.",
+          "tips": [
+            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
+          ]
+        },
+        {
           "matchId": "NA1_5657389532",
           "queueId": 710,
           "mode": "Queue 710",
@@ -135,31 +160,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an excellent KDA (12/3/5) and solid kill involvement (47% of team kills). An excellent KDA carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5656762355",
-          "queueId": 440,
-          "mode": "Ranked Flex",
-          "championName": "Viego",
-          "role": "Top",
-          "win": true,
-          "kills": 15,
-          "deaths": 12,
-          "assists": 14,
-          "kda": 2.42,
-          "csPerMin": 5.3,
-          "killParticipation": 45,
-          "damagePerMin": 1227,
-          "visionScore": 35,
-          "durationSeconds": 2634,
-          "playedAt": "2026-10-09T02:43:32.885Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (15/12/14) and solid kill involvement (45% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
