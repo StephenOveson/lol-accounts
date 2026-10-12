@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T20:05:54.070Z",
+  "fetchedAt": "2026-10-12T00:22:30.501Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,57 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5658452000",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Kalista",
+          "role": "Bottom",
+          "win": false,
+          "kills": 11,
+          "deaths": 7,
+          "assists": 8,
+          "kda": 2.71,
+          "csPerMin": 8.8,
+          "killParticipation": 61,
+          "damagePerMin": 1081,
+          "visionScore": 28,
+          "durationSeconds": 1992,
+          "playedAt": "2026-10-11T20:51:07.455Z",
+          "rating": 7.9,
+          "grade": "A",
+          "remake": false,
+          "reason": "Lost with an even KDA (11/7/8) and solid kill involvement (61% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
+          "matchId": "NA1_5658429162",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Varus",
+          "role": "Top",
+          "win": false,
+          "kills": 3,
+          "deaths": 10,
+          "assists": 1,
+          "kda": 0.4,
+          "csPerMin": 7.2,
+          "killParticipation": 15,
+          "damagePerMin": 703,
+          "visionScore": 11,
+          "durationSeconds": 1830,
+          "playedAt": "2026-10-11T20:12:35.872Z",
+          "rating": 4.5,
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a rough KDA (3/10/1) and little kill involvement (15% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
+        },
+        {
           "matchId": "NA1_5658349635",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -111,56 +162,6 @@
           "reason": "Lost with a rough KDA (7/8/1) and middling kill involvement (31% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5658110634",
-          "queueId": 440,
-          "mode": "Ranked Flex",
-          "championName": "Vi",
-          "role": "Top",
-          "win": false,
-          "kills": 2,
-          "deaths": 6,
-          "assists": 5,
-          "kda": 1.17,
-          "csPerMin": 5.5,
-          "killParticipation": 58,
-          "damagePerMin": 607,
-          "visionScore": 22,
-          "durationSeconds": 1423,
-          "playedAt": "2026-10-11T04:47:48.044Z",
-          "rating": 5.5,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (2/6/5) and solid kill involvement (58% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5658069599",
-          "queueId": 710,
-          "mode": "Queue 710",
-          "championName": "Gnar",
-          "role": "Top",
-          "win": false,
-          "kills": 3,
-          "deaths": 5,
-          "assists": 9,
-          "kda": 2.4,
-          "csPerMin": 8.3,
-          "killParticipation": 48,
-          "damagePerMin": 799,
-          "visionScore": 34,
-          "durationSeconds": 2136,
-          "playedAt": "2026-10-11T04:13:06.414Z",
-          "rating": 7.2,
-          "grade": "A",
-          "remake": false,
-          "reason": "Lost with an even KDA (3/5/9) and solid kill involvement (48% of team kills). Excellent farm carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
