@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T00:25:57.630Z",
+  "fetchedAt": "2026-10-13T07:33:33.223Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5659274326",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Varus",
+          "role": "Top",
+          "win": false,
+          "kills": 8,
+          "deaths": 6,
+          "assists": 1,
+          "kda": 1.5,
+          "csPerMin": 8.2,
+          "killParticipation": 50,
+          "damagePerMin": 974,
+          "visionScore": 41,
+          "durationSeconds": 1883,
+          "playedAt": "2026-10-13T01:45:49.707Z",
+          "rating": 7.1,
+          "grade": "A",
+          "remake": false,
+          "reason": "Lost with an even KDA (8/6/1) and solid kill involvement (50% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5659169458",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -137,31 +162,6 @@
           "reason": "Won with an excellent KDA (7/0/0) and solid kill involvement (54% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5659095671",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Volibear",
-          "role": "Top",
-          "win": false,
-          "kills": 4,
-          "deaths": 9,
-          "assists": 8,
-          "kda": 1.33,
-          "csPerMin": 8.2,
-          "killParticipation": 33,
-          "damagePerMin": 806,
-          "visionScore": 20,
-          "durationSeconds": 1741,
-          "playedAt": "2026-10-12T21:00:14.343Z",
-          "rating": 6.1,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (4/9/8) and middling kill involvement (33% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
