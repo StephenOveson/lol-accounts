@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T13:29:57.981Z",
+  "fetchedAt": "2026-10-14T22:09:25.712Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -308,6 +308,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5660305253",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Gwen",
+          "role": "Top",
+          "win": true,
+          "kills": 3,
+          "deaths": 2,
+          "assists": 1,
+          "kda": 2,
+          "csPerMin": 9.2,
+          "killParticipation": 22,
+          "damagePerMin": 507,
+          "visionScore": 13,
+          "durationSeconds": 924,
+          "playedAt": "2026-10-14T21:45:34.798Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (3/2/1) and little kill involvement (22% of team kills). The standout was excellent farm, though little kill involvement held the grade back.",
+          "tips": [
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
+        },
+        {
+          "matchId": "NA1_5660190376",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Shyvana",
+          "role": "Jungle",
+          "win": true,
+          "kills": 4,
+          "deaths": 4,
+          "assists": 5,
+          "kda": 2.25,
+          "csPerMin": 7.6,
+          "killParticipation": 30,
+          "damagePerMin": 572,
+          "visionScore": 19,
+          "durationSeconds": 1600,
+          "playedAt": "2026-10-14T16:19:38.919Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (4/4/5) and middling kill involvement (30% of team kills).",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5659048900",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -328,56 +378,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an excellent KDA (3/0/7) and solid kill involvement (45% of team kills). An excellent KDA carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5658172182",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "KogMaw",
-          "role": "Bottom",
-          "win": true,
-          "kills": 11,
-          "deaths": 9,
-          "assists": 14,
-          "kda": 2.78,
-          "csPerMin": 8.2,
-          "killParticipation": 51,
-          "damagePerMin": 1394,
-          "visionScore": 26,
-          "durationSeconds": 2415,
-          "playedAt": "2026-10-11T06:16:44.823Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (11/9/14) and solid kill involvement (51% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5658136676",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Smolder",
-          "role": "Bottom",
-          "win": true,
-          "kills": 7,
-          "deaths": 5,
-          "assists": 11,
-          "kda": 3.6,
-          "csPerMin": 8.6,
-          "killParticipation": 64,
-          "damagePerMin": 940,
-          "visionScore": 35,
-          "durationSeconds": 2097,
-          "playedAt": "2026-10-11T05:31:25.343Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (7/5/11) and solid kill involvement (64% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
