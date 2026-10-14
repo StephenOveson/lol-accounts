@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T01:33:00.512Z",
+  "fetchedAt": "2026-10-14T07:01:13.562Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -30,6 +30,14 @@
       "winRate": 54,
       "ranks": [
         {
+          "queueType": "RANKED_SOLO_5x5",
+          "label": "Solo/Duo",
+          "tier": "MASTER",
+          "division": "I",
+          "leaguePoints": 172,
+          "winRate": 54
+        },
+        {
           "queueType": "JADE_RANKED_SOLO_5x5",
           "label": "JADE_RANKED_SOLO_5x5",
           "tier": "SALT",
@@ -44,14 +52,6 @@
           "division": "I",
           "leaguePoints": 0,
           "winRate": 62
-        },
-        {
-          "queueType": "RANKED_SOLO_5x5",
-          "label": "Solo/Duo",
-          "tier": "MASTER",
-          "division": "I",
-          "leaguePoints": 172,
-          "winRate": 54
         },
         {
           "queueType": "RANKED_FLEX_SR",
