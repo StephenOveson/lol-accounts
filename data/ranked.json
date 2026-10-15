@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-15T01:10:51.515Z",
+  "fetchedAt": "2026-10-15T06:52:18.269Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -26,15 +26,15 @@
       "tagLine": "NA1",
       "tier": "MASTER",
       "division": "I",
-      "leaguePoints": 172,
+      "leaguePoints": 142,
       "winRate": 54,
       "ranks": [
         {
-          "queueType": "RANKED_SOLO_5x5",
-          "label": "Solo/Duo",
-          "tier": "MASTER",
-          "division": "I",
-          "leaguePoints": 172,
+          "queueType": "RANKED_FLEX_SR",
+          "label": "Flex",
+          "tier": "DIAMOND",
+          "division": "III",
+          "leaguePoints": 48,
           "winRate": 54
         },
         {
@@ -46,20 +46,20 @@
           "winRate": 33
         },
         {
+          "queueType": "RANKED_SOLO_5x5",
+          "label": "Solo/Duo",
+          "tier": "MASTER",
+          "division": "I",
+          "leaguePoints": 142,
+          "winRate": 54
+        },
+        {
           "queueType": "RANKED_PREMADE_5x5",
           "label": "RANKED_PREMADE_5x5",
           "tier": "MASTER",
           "division": "I",
           "leaguePoints": 0,
           "winRate": 62
-        },
-        {
-          "queueType": "RANKED_FLEX_SR",
-          "label": "Flex",
-          "tier": "DIAMOND",
-          "division": "III",
-          "leaguePoints": 38,
-          "winRate": 54
         }
       ]
     },
@@ -106,17 +106,17 @@
       "docId": "grabpatch",
       "gameName": "grabpatch",
       "tagLine": "NA1",
-      "tier": "EMERALD",
-      "division": "I",
-      "leaguePoints": 75,
+      "tier": "DIAMOND",
+      "division": "IV",
+      "leaguePoints": 2,
       "winRate": 59,
       "ranks": [
         {
           "queueType": "RANKED_SOLO_5x5",
           "label": "Solo/Duo",
-          "tier": "EMERALD",
-          "division": "I",
-          "leaguePoints": 75,
+          "tier": "DIAMOND",
+          "division": "IV",
+          "leaguePoints": 2,
           "winRate": 59
         }
       ]
