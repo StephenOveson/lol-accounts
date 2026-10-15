@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-15T01:19:44.911Z",
+  "fetchedAt": "2026-10-15T07:12:19.604Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,78 +89,78 @@
       "tagLine": "NA1",
       "matches": [
         {
-          "matchId": "NA1_5660021534",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Jhin",
-          "role": "Bottom",
+          "matchId": "NA1_5660595612",
+          "queueId": 440,
+          "mode": "Ranked Flex",
+          "championName": "Camille",
+          "role": "Top",
+          "win": false,
+          "kills": 8,
+          "deaths": 9,
+          "assists": 8,
+          "kda": 1.78,
+          "csPerMin": 6,
+          "killParticipation": 37,
+          "damagePerMin": 1159,
+          "visionScore": 34,
+          "durationSeconds": 2118,
+          "playedAt": "2026-10-15T05:00:36.780Z",
+          "rating": 6.3,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with an even KDA (8/9/8) and middling kill involvement (37% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
+          "matchId": "NA1_5660571190",
+          "queueId": 440,
+          "mode": "Ranked Flex",
+          "championName": "Gragas",
+          "role": "Top",
           "win": true,
-          "kills": 2,
-          "deaths": 4,
-          "assists": 7,
-          "kda": 2.25,
-          "csPerMin": 8.4,
-          "killParticipation": 45,
-          "damagePerMin": 446,
-          "visionScore": 4,
-          "durationSeconds": 911,
-          "playedAt": "2026-10-14T04:49:51.548Z",
+          "kills": 6,
+          "deaths": 5,
+          "assists": 15,
+          "kda": 4.2,
+          "csPerMin": 6.4,
+          "killParticipation": 57,
+          "damagePerMin": 1150,
+          "visionScore": 22,
+          "durationSeconds": 1770,
+          "playedAt": "2026-10-15T04:20:36.125Z",
           "rating": 10,
           "grade": "S",
           "remake": false,
-          "reason": "Won with an even KDA (2/4/7) and solid kill involvement (45% of team kills). The standout was excellent farm, though neglected vision held the grade back.",
+          "reason": "Won with a solid KDA (6/5/15) and solid kill involvement (57% of team kills). Elite damage output carried the grade.",
           "tips": [
-            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
+            "Strong all-around performance — keep playing like this."
           ]
         },
         {
-          "matchId": "NA1_5659936725",
-          "queueId": 3130,
-          "mode": "Queue 3130",
-          "championName": "Rumble",
+          "matchId": "NA1_5660543108",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Zaahen",
           "role": "Top",
-          "win": false,
-          "kills": 0,
-          "deaths": 6,
+          "win": true,
+          "kills": 11,
+          "deaths": 3,
           "assists": 6,
-          "kda": 1,
-          "csPerMin": 7.1,
-          "killParticipation": 50,
-          "damagePerMin": 1171,
-          "visionScore": 38,
-          "durationSeconds": 2386,
-          "playedAt": "2026-10-14T03:28:25.392Z",
-          "rating": 6.4,
-          "grade": "B",
+          "kda": 5.67,
+          "csPerMin": 7.7,
+          "killParticipation": 44,
+          "damagePerMin": 1347,
+          "visionScore": 41,
+          "durationSeconds": 1965,
+          "playedAt": "2026-10-15T03:46:26.761Z",
+          "rating": 10,
+          "grade": "S",
           "remake": false,
-          "reason": "Lost with a rough KDA (0/6/6) and solid kill involvement (50% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
+          "reason": "Won with an excellent KDA (11/3/6) and middling kill involvement (44% of team kills). An excellent KDA carried the grade.",
           "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5659902928",
-          "queueId": 3130,
-          "mode": "Queue 3130",
-          "championName": "Kaisa",
-          "role": "Top",
-          "win": false,
-          "kills": 1,
-          "deaths": 4,
-          "assists": 3,
-          "kda": 1,
-          "csPerMin": 9.1,
-          "killParticipation": 50,
-          "damagePerMin": 1489,
-          "visionScore": 30,
-          "durationSeconds": 2010,
-          "playedAt": "2026-10-14T02:32:16.803Z",
-          "rating": 6.6,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (1/4/3) and solid kill involvement (50% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
@@ -390,6 +390,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5660650702",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Shen",
+          "role": "Top",
+          "win": true,
+          "kills": 9,
+          "deaths": 5,
+          "assists": 12,
+          "kda": 4.2,
+          "csPerMin": 7.6,
+          "killParticipation": 55,
+          "damagePerMin": 914,
+          "visionScore": 22,
+          "durationSeconds": 1875,
+          "playedAt": "2026-10-15T06:31:05.809Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (9/5/12) and solid kill involvement (55% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5635618092",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -437,31 +462,6 @@
           "reason": "Won with an excellent KDA (10/1/6) and solid kill involvement (50% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5622388301",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Galio",
-          "role": "Mid",
-          "win": false,
-          "kills": 6,
-          "deaths": 10,
-          "assists": 8,
-          "kda": 1.4,
-          "csPerMin": 5.5,
-          "killParticipation": 44,
-          "damagePerMin": 852,
-          "visionScore": 20,
-          "durationSeconds": 1569,
-          "playedAt": "2026-08-16T05:17:17.626Z",
-          "rating": 5.9,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (6/10/8) and middling kill involvement (44% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
