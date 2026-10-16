@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T17:15:55.215Z",
+  "fetchedAt": "2026-10-16T20:47:09.763Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -390,6 +390,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5661420428",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Zaahen",
+          "role": "Top",
+          "win": true,
+          "kills": 10,
+          "deaths": 8,
+          "assists": 6,
+          "kda": 2,
+          "csPerMin": 6.9,
+          "killParticipation": 39,
+          "damagePerMin": 708,
+          "visionScore": 28,
+          "durationSeconds": 2285,
+          "playedAt": "2026-10-16T20:37:01.554Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (10/8/6) and middling kill involvement (39% of team kills).",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5661355175",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -435,31 +460,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an even KDA (9/11/8) and middling kill involvement (40% of team kills).",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5661327549",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Yone",
-          "role": "Top",
-          "win": true,
-          "kills": 11,
-          "deaths": 3,
-          "assists": 5,
-          "kda": 5.33,
-          "csPerMin": 8.8,
-          "killParticipation": 38,
-          "damagePerMin": 817,
-          "visionScore": 23,
-          "durationSeconds": 1604,
-          "playedAt": "2026-10-16T15:52:08.300Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an excellent KDA (11/3/5) and middling kill involvement (38% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
