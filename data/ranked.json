@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T20:25:00.131Z",
+  "fetchedAt": "2026-10-16T23:12:52.951Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -38,20 +38,20 @@
           "winRate": 54
         },
         {
-          "queueType": "RANKED_SOLO_5x5",
-          "label": "Solo/Duo",
-          "tier": "MASTER",
-          "division": "I",
-          "leaguePoints": 112,
-          "winRate": 53
-        },
-        {
           "queueType": "JADE_RANKED_SOLO_5x5",
           "label": "JADE_RANKED_SOLO_5x5",
           "tier": "SALT",
           "division": "III",
           "leaguePoints": 1,
           "winRate": 33
+        },
+        {
+          "queueType": "RANKED_SOLO_5x5",
+          "label": "Solo/Duo",
+          "tier": "MASTER",
+          "division": "I",
+          "leaguePoints": 112,
+          "winRate": 53
         },
         {
           "queueType": "RANKED_PREMADE_5x5",
@@ -107,17 +107,17 @@
       "gameName": "grabpatch",
       "tagLine": "NA1",
       "tier": "DIAMOND",
-      "division": "IV",
-      "leaguePoints": 77,
-      "winRate": 60,
+      "division": "III",
+      "leaguePoints": 87,
+      "winRate": 62,
       "ranks": [
         {
           "queueType": "RANKED_SOLO_5x5",
           "label": "Solo/Duo",
           "tier": "DIAMOND",
-          "division": "IV",
-          "leaguePoints": 77,
-          "winRate": 60
+          "division": "III",
+          "leaguePoints": 87,
+          "winRate": 62
         }
       ]
     }
