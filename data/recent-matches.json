@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T01:05:22.137Z",
+  "fetchedAt": "2026-10-16T06:55:25.160Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5661103217",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Kennen",
+          "role": "Top",
+          "win": true,
+          "kills": 5,
+          "deaths": 9,
+          "assists": 4,
+          "kda": 1,
+          "csPerMin": 5.7,
+          "killParticipation": 30,
+          "damagePerMin": 675,
+          "visionScore": 28,
+          "durationSeconds": 2144,
+          "playedAt": "2026-10-16T03:46:00.351Z",
+          "rating": 9.9,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a rough KDA (5/9/4) and middling kill involvement (30% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
+          "matchId": "NA1_5661049885",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Rumble",
+          "role": "Top",
+          "win": false,
+          "kills": 6,
+          "deaths": 8,
+          "assists": 6,
+          "kda": 1.5,
+          "csPerMin": 6.7,
+          "killParticipation": 63,
+          "damagePerMin": 1024,
+          "visionScore": 28,
+          "durationSeconds": 1900,
+          "playedAt": "2026-10-16T02:34:38.922Z",
+          "rating": 6.9,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with an even KDA (6/8/6) and solid kill involvement (63% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5660595612",
           "queueId": 440,
           "mode": "Ranked Flex",
@@ -109,56 +159,6 @@
           "grade": "B",
           "remake": false,
           "reason": "Lost with an even KDA (8/9/8) and middling kill involvement (37% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5660571190",
-          "queueId": 440,
-          "mode": "Ranked Flex",
-          "championName": "Gragas",
-          "role": "Top",
-          "win": true,
-          "kills": 6,
-          "deaths": 5,
-          "assists": 15,
-          "kda": 4.2,
-          "csPerMin": 6.4,
-          "killParticipation": 57,
-          "damagePerMin": 1150,
-          "visionScore": 22,
-          "durationSeconds": 1770,
-          "playedAt": "2026-10-15T04:20:36.125Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (6/5/15) and solid kill involvement (57% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5660543108",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Zaahen",
-          "role": "Top",
-          "win": true,
-          "kills": 11,
-          "deaths": 3,
-          "assists": 6,
-          "kda": 5.67,
-          "csPerMin": 7.7,
-          "killParticipation": 44,
-          "damagePerMin": 1347,
-          "visionScore": 41,
-          "durationSeconds": 1965,
-          "playedAt": "2026-10-15T03:46:26.761Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an excellent KDA (11/3/6) and middling kill involvement (44% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
