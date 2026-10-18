@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T15:03:55.965Z",
+  "fetchedAt": "2026-10-18T12:46:09.813Z",
   "seasonStart": "2026-01-01T00:00:00.000Z",
   "accounts": [
     {
@@ -37,21 +37,21 @@
       "topChampions": [
         {
           "championName": "Ambessa",
-          "games": 21,
-          "wins": 16,
-          "winRate": 76
+          "games": 15,
+          "wins": 11,
+          "winRate": 73
         },
         {
-          "championName": "Gangplank",
+          "championName": "Gnar",
           "games": 6,
-          "wins": 3,
-          "winRate": 50
+          "wins": 4,
+          "winRate": 67
         },
         {
           "championName": "Rumble",
-          "games": 4,
+          "games": 5,
           "wins": 3,
-          "winRate": 75
+          "winRate": 60
         }
       ],
       "mainRole": "Top"
@@ -80,15 +80,15 @@
       "topChampions": [
         {
           "championName": "Garen",
-          "games": 10,
-          "wins": 7,
-          "winRate": 70
+          "games": 9,
+          "wins": 6,
+          "winRate": 67
         },
         {
           "championName": "Ambessa",
-          "games": 9,
-          "wins": 4,
-          "winRate": 44
+          "games": 7,
+          "wins": 3,
+          "winRate": 43
         },
         {
           "championName": "Gangplank",
@@ -112,16 +112,16 @@
           "winRate": 63
         },
         {
-          "championName": "Ziggs",
-          "games": 9,
-          "wins": 4,
-          "winRate": 44
-        },
-        {
           "championName": "Xerath",
           "games": 5,
           "wins": 3,
           "winRate": 60
+        },
+        {
+          "championName": "Zaahen",
+          "games": 3,
+          "wins": 2,
+          "winRate": 67
         }
       ],
       "mainRole": "Mid"
