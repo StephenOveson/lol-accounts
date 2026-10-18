@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T17:56:14.096Z",
+  "fetchedAt": "2026-10-18T20:25:57.226Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -391,6 +391,32 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5662731898",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Yone",
+          "role": "Top",
+          "win": false,
+          "kills": 3,
+          "deaths": 7,
+          "assists": 0,
+          "kda": 0.43,
+          "csPerMin": 8.7,
+          "killParticipation": 18,
+          "damagePerMin": 536,
+          "visionScore": 21,
+          "durationSeconds": 1630,
+          "playedAt": "2026-10-18T19:52:55.075Z",
+          "rating": 4.5,
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a rough KDA (3/7/0) and little kill involvement (18% of team kills). The standout was excellent farm, though a rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
+        },
+        {
           "matchId": "NA1_5661486369",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -436,32 +462,6 @@
           "grade": "C",
           "remake": false,
           "reason": "Lost with a rough KDA (1/6/2) and little kill involvement (16% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5661458019",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Yone",
-          "role": "Top",
-          "win": true,
-          "kills": 2,
-          "deaths": 6,
-          "assists": 1,
-          "kda": 0.5,
-          "csPerMin": 7.3,
-          "killParticipation": 10,
-          "damagePerMin": 796,
-          "visionScore": 18,
-          "durationSeconds": 1540,
-          "playedAt": "2026-10-16T21:39:33.908Z",
-          "rating": 9.9,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a rough KDA (2/6/1) and little kill involvement (10% of team kills). A rough KDA held the grade back.",
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
             "Group with teammates for fights and objectives instead of playing them out solo."
