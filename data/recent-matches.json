@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-20T00:10:41.300Z",
+  "fetchedAt": "2026-10-20T05:47:12.682Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5663551393",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Zaahen",
+          "role": "Top",
+          "win": true,
+          "kills": 4,
+          "deaths": 4,
+          "assists": 7,
+          "kda": 2.75,
+          "csPerMin": 7.2,
+          "killParticipation": 34,
+          "damagePerMin": 793,
+          "visionScore": 17,
+          "durationSeconds": 1743,
+          "playedAt": "2026-10-20T02:07:28.418Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (4/4/7) and middling kill involvement (34% of team kills).",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5663153730",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -135,31 +160,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an even KDA (6/6/9) and middling kill involvement (29% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5663116204",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Volibear",
-          "role": "Top",
-          "win": true,
-          "kills": 8,
-          "deaths": 2,
-          "assists": 1,
-          "kda": 4.5,
-          "csPerMin": 11.2,
-          "killParticipation": 33,
-          "damagePerMin": 1067,
-          "visionScore": 11,
-          "durationSeconds": 1042,
-          "playedAt": "2026-10-19T04:43:33.479Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (8/2/1) and middling kill involvement (33% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
