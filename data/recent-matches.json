@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-21T23:08:22.464Z",
+  "fetchedAt": "2026-10-22T04:08:01.982Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5664751338",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Shyvana",
+          "role": "Jungle",
+          "win": true,
+          "kills": 4,
+          "deaths": 2,
+          "assists": 3,
+          "kda": 3.5,
+          "csPerMin": 7.6,
+          "killParticipation": 30,
+          "damagePerMin": 265,
+          "visionScore": 10,
+          "durationSeconds": 930,
+          "playedAt": "2026-10-22T02:40:32.847Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (4/2/3) and middling kill involvement (30% of team kills). Low damage output held the grade back.",
+          "tips": [
+            "Take more fights when you're ahead and prioritize itemizing for damage, not just survivability."
+          ]
+        },
+        {
           "matchId": "NA1_5664301907",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -134,31 +159,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with an excellent KDA (7/3/9) and middling kill involvement (40% of team kills). An excellent KDA carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5664254138",
-          "queueId": 440,
-          "mode": "Ranked Flex",
-          "championName": "Kalista",
-          "role": "Top",
-          "win": false,
-          "kills": 8,
-          "deaths": 8,
-          "assists": 4,
-          "kda": 1.5,
-          "csPerMin": 9.3,
-          "killParticipation": 52,
-          "damagePerMin": 1519,
-          "visionScore": 24,
-          "durationSeconds": 1836,
-          "playedAt": "2026-10-21T04:59:47.687Z",
-          "rating": 6.9,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with an even KDA (8/8/4) and solid kill involvement (52% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
