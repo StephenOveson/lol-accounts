@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T18:59:36.535Z",
+  "fetchedAt": "2026-10-23T22:01:47.584Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5665752664",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "KogMaw",
+          "role": "Bottom",
+          "win": true,
+          "kills": 10,
+          "deaths": 6,
+          "assists": 4,
+          "kda": 2.33,
+          "csPerMin": 8.3,
+          "killParticipation": 38,
+          "damagePerMin": 849,
+          "visionScore": 24,
+          "durationSeconds": 1915,
+          "playedAt": "2026-10-23T20:26:17.762Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (10/6/4) and middling kill involvement (38% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5665428507",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -136,31 +161,6 @@
           "reason": "Won with a solid KDA (4/2/3) and middling kill involvement (30% of team kills). Low damage output held the grade back.",
           "tips": [
             "Take more fights when you're ahead and prioritize itemizing for damage, not just survivability."
-          ]
-        },
-        {
-          "matchId": "NA1_5664301907",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Gnar",
-          "role": "Top",
-          "win": true,
-          "kills": 8,
-          "deaths": 5,
-          "assists": 9,
-          "kda": 3.4,
-          "csPerMin": 7.7,
-          "killParticipation": 35,
-          "damagePerMin": 910,
-          "visionScore": 19,
-          "durationSeconds": 1830,
-          "playedAt": "2026-10-21T06:16:08.501Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (8/5/9) and middling kill involvement (35% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
@@ -390,6 +390,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5665791398",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Gnar",
+          "role": "Top",
+          "win": true,
+          "kills": 8,
+          "deaths": 7,
+          "assists": 9,
+          "kda": 2.43,
+          "csPerMin": 7.6,
+          "killParticipation": 41,
+          "damagePerMin": 1085,
+          "visionScore": 40,
+          "durationSeconds": 2136,
+          "playedAt": "2026-10-23T21:48:29.166Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (8/7/9) and middling kill involvement (41% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5662731898",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -438,32 +463,6 @@
           "reason": "Won with a solid KDA (0/9/28) and constant kill involvement (67% of team kills). Constant kill involvement carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5661464654",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Zaahen",
-          "role": "Top",
-          "win": false,
-          "kills": 1,
-          "deaths": 6,
-          "assists": 2,
-          "kda": 0.5,
-          "csPerMin": 7.8,
-          "killParticipation": 16,
-          "damagePerMin": 532,
-          "visionScore": 24,
-          "durationSeconds": 1847,
-          "playedAt": "2026-10-16T22:15:22.510Z",
-          "rating": 4.4,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (1/6/2) and little kill involvement (16% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
           ]
         }
       ]
