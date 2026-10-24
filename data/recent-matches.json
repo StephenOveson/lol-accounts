@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T22:01:47.584Z",
+  "fetchedAt": "2026-10-24T01:26:09.754Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5665894263",
+          "queueId": 3130,
+          "mode": "Queue 3130",
+          "championName": "Kaisa",
+          "role": "Top",
+          "win": true,
+          "kills": 13,
+          "deaths": 0,
+          "assists": 7,
+          "kda": 20,
+          "csPerMin": 8.2,
+          "killParticipation": 69,
+          "damagePerMin": 2463,
+          "visionScore": 51,
+          "durationSeconds": 2939,
+          "playedAt": "2026-10-24T01:04:44.911Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (13/0/7) and constant kill involvement (69% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5665752664",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -136,31 +161,6 @@
           "reason": "Lost with an even KDA (4/5/4) and solid kill involvement (47% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5664751338",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Shyvana",
-          "role": "Jungle",
-          "win": true,
-          "kills": 4,
-          "deaths": 2,
-          "assists": 3,
-          "kda": 3.5,
-          "csPerMin": 7.6,
-          "killParticipation": 30,
-          "damagePerMin": 265,
-          "visionScore": 10,
-          "durationSeconds": 930,
-          "playedAt": "2026-10-22T02:40:32.847Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (4/2/3) and middling kill involvement (30% of team kills). Low damage output held the grade back.",
-          "tips": [
-            "Take more fights when you're ahead and prioritize itemizing for damage, not just survivability."
           ]
         }
       ]
@@ -390,6 +390,32 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5665809418",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Gnar",
+          "role": "Top",
+          "win": false,
+          "kills": 2,
+          "deaths": 6,
+          "assists": 1,
+          "kda": 0.5,
+          "csPerMin": 6.7,
+          "killParticipation": 10,
+          "damagePerMin": 798,
+          "visionScore": 31,
+          "durationSeconds": 1852,
+          "playedAt": "2026-10-23T22:23:17.500Z",
+          "rating": 4.9,
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a rough KDA (2/6/1) and little kill involvement (10% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
+        },
+        {
           "matchId": "NA1_5665791398",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -438,31 +464,6 @@
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
             "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5661486369",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Blitzcrank",
-          "role": "Support",
-          "win": true,
-          "kills": 0,
-          "deaths": 9,
-          "assists": 28,
-          "kda": 3.11,
-          "csPerMin": 1.1,
-          "killParticipation": 67,
-          "damagePerMin": 323,
-          "visionScore": 69,
-          "durationSeconds": 2012,
-          "playedAt": "2026-10-16T22:56:47.863Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (0/9/28) and constant kill involvement (67% of team kills). Constant kill involvement carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
