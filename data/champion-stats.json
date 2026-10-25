@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T12:46:09.813Z",
+  "fetchedAt": "2026-10-25T13:20:31.583Z",
   "seasonStart": "2026-01-01T00:00:00.000Z",
   "accounts": [
     {
@@ -37,21 +37,21 @@
       "topChampions": [
         {
           "championName": "Ambessa",
-          "games": 15,
-          "wins": 11,
-          "winRate": 73
-        },
-        {
-          "championName": "Gnar",
-          "games": 6,
-          "wins": 4,
+          "games": 12,
+          "wins": 8,
           "winRate": 67
         },
         {
-          "championName": "Rumble",
-          "games": 5,
-          "wins": 3,
+          "championName": "Gnar",
+          "games": 10,
+          "wins": 6,
           "winRate": 60
+        },
+        {
+          "championName": "Rumble",
+          "games": 4,
+          "wins": 2,
+          "winRate": 50
         }
       ],
       "mainRole": "Top"
@@ -107,18 +107,18 @@
       "topChampions": [
         {
           "championName": "Galio",
-          "games": 19,
-          "wins": 12,
-          "winRate": 63
+          "games": 17,
+          "wins": 10,
+          "winRate": 59
         },
         {
           "championName": "Xerath",
-          "games": 5,
-          "wins": 3,
-          "winRate": 60
+          "games": 4,
+          "wins": 2,
+          "winRate": 50
         },
         {
-          "championName": "Zaahen",
+          "championName": "Yone",
           "games": 3,
           "wins": 2,
           "winRate": 67
