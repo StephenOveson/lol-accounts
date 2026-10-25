@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T00:56:27.517Z",
+  "fetchedAt": "2026-10-25T05:52:36.676Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5666783635",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Ambessa",
+          "role": "Top",
+          "win": true,
+          "kills": 1,
+          "deaths": 0,
+          "assists": 2,
+          "kda": 3,
+          "csPerMin": 8.1,
+          "killParticipation": 18,
+          "damagePerMin": 456,
+          "visionScore": 10,
+          "durationSeconds": 929,
+          "playedAt": "2026-10-25T04:23:39.084Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (1/0/2) and little kill involvement (18% of team kills). The standout was excellent farm, though little kill involvement held the grade back.",
+          "tips": [
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
+        },
+        {
           "matchId": "NA1_5666131392",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -136,31 +161,6 @@
           "reason": "Lost with a rough KDA (3/11/4) and middling kill involvement (30% of team kills). A rough KDA held the grade back.",
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5665935478",
-          "queueId": 3130,
-          "mode": "Queue 3130",
-          "championName": "Ornn",
-          "role": "Top",
-          "win": true,
-          "kills": 1,
-          "deaths": 3,
-          "assists": 8,
-          "kda": 3,
-          "csPerMin": 9.2,
-          "killParticipation": 56,
-          "damagePerMin": 747,
-          "visionScore": 26,
-          "durationSeconds": 2304,
-          "playedAt": "2026-10-24T02:00:26.496Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (1/3/8) and solid kill involvement (56% of team kills). Excellent farm carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
