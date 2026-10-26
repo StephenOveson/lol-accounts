@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T23:59:52.856Z",
+  "fetchedAt": "2026-10-26T04:34:07.039Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -89,6 +89,32 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5667379322",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Gangplank",
+          "role": "Top",
+          "win": false,
+          "kills": 0,
+          "deaths": 8,
+          "assists": 6,
+          "kda": 0.75,
+          "csPerMin": 7.6,
+          "killParticipation": 22,
+          "damagePerMin": 669,
+          "visionScore": 29,
+          "durationSeconds": 2168,
+          "playedAt": "2026-10-26T02:03:25.444Z",
+          "rating": 5.1,
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a rough KDA (0/8/6) and little kill involvement (22% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
+        },
+        {
           "matchId": "NA1_5666783635",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -136,31 +162,6 @@
           "reason": "Won with an excellent KDA (9/2/21) and solid kill involvement (63% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5666002755",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Galio",
-          "role": "Mid",
-          "win": false,
-          "kills": 3,
-          "deaths": 11,
-          "assists": 4,
-          "kda": 0.64,
-          "csPerMin": 6.3,
-          "killParticipation": 30,
-          "damagePerMin": 635,
-          "visionScore": 18,
-          "durationSeconds": 1683,
-          "playedAt": "2026-10-24T02:54:21.586Z",
-          "rating": 4.7,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (3/11/4) and middling kill involvement (30% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
