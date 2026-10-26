@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T15:45:05.087Z",
+  "fetchedAt": "2026-10-26T20:51:00.290Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -107,16 +107,16 @@
       "gameName": "grabpatch",
       "tagLine": "NA1",
       "tier": "DIAMOND",
-      "division": "III",
-      "leaguePoints": 78,
+      "division": "II",
+      "leaguePoints": 1,
       "winRate": 61,
       "ranks": [
         {
           "queueType": "RANKED_SOLO_5x5",
           "label": "Solo/Duo",
           "tier": "DIAMOND",
-          "division": "III",
-          "leaguePoints": 78,
+          "division": "II",
+          "leaguePoints": 1,
           "winRate": 61
         }
       ]
