@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T22:30:15.366Z",
+  "fetchedAt": "2026-10-27T01:56:02.547Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -391,6 +391,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5667963669",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Ambessa",
+          "role": "Top",
+          "win": true,
+          "kills": 10,
+          "deaths": 5,
+          "assists": 6,
+          "kda": 3.2,
+          "csPerMin": 6.6,
+          "killParticipation": 41,
+          "damagePerMin": 924,
+          "visionScore": 30,
+          "durationSeconds": 1727,
+          "playedAt": "2026-10-27T01:21:58.039Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (10/5/6) and middling kill involvement (41% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5667840941",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -438,32 +463,6 @@
           "reason": "Lost with an even KDA (3/5/6) and solid kill involvement (47% of team kills).",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5667811346",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Renekton",
-          "role": "Top",
-          "win": true,
-          "kills": 0,
-          "deaths": 1,
-          "assists": 1,
-          "kda": 1,
-          "csPerMin": 9,
-          "killParticipation": 6,
-          "damagePerMin": 487,
-          "visionScore": 13,
-          "durationSeconds": 925,
-          "playedAt": "2026-10-26T20:40:13.654Z",
-          "rating": 9.5,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a rough KDA (0/1/1) and little kill involvement (6% of team kills). The standout was excellent farm, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
           ]
         }
       ]
