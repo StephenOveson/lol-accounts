@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T18:11:51.096Z",
+  "fetchedAt": "2026-10-28T23:03:15.401Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5669087393",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Darius",
+          "role": "Top",
+          "win": true,
+          "kills": 7,
+          "deaths": 2,
+          "assists": 5,
+          "kda": 6,
+          "csPerMin": 7.6,
+          "killParticipation": 32,
+          "damagePerMin": 614,
+          "visionScore": 32,
+          "durationSeconds": 2075,
+          "playedAt": "2026-10-28T22:06:01.307Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (7/2/5) and middling kill involvement (32% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
+          "matchId": "NA1_5669004477",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Darius",
+          "role": "Top",
+          "win": false,
+          "kills": 15,
+          "deaths": 8,
+          "assists": 5,
+          "kda": 2.5,
+          "csPerMin": 6.2,
+          "killParticipation": 69,
+          "damagePerMin": 929,
+          "visionScore": 31,
+          "durationSeconds": 2283,
+          "playedAt": "2026-10-28T18:45:13.911Z",
+          "rating": 7.4,
+          "grade": "A",
+          "remake": false,
+          "reason": "Lost with an even KDA (15/8/5) and constant kill involvement (69% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5669002853",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -110,57 +160,6 @@
           "grade": "A",
           "remake": false,
           "reason": "Lost with a solid KDA (6/2/1) and middling kill involvement (44% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5668785266",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Rumble",
-          "role": "Top",
-          "win": false,
-          "kills": 1,
-          "deaths": 5,
-          "assists": 1,
-          "kda": 0.4,
-          "csPerMin": 7.3,
-          "killParticipation": 18,
-          "damagePerMin": 471,
-          "visionScore": 17,
-          "durationSeconds": 1552,
-          "playedAt": "2026-10-28T04:49:37.945Z",
-          "rating": 4.1,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (1/5/1) and little kill involvement (18% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5668692818",
-          "queueId": 440,
-          "mode": "Ranked Flex",
-          "championName": "KogMaw",
-          "role": "Top",
-          "win": false,
-          "kills": 10,
-          "deaths": 4,
-          "assists": 2,
-          "kda": 3,
-          "csPerMin": 9.7,
-          "killParticipation": 50,
-          "damagePerMin": 1397,
-          "visionScore": 33,
-          "durationSeconds": 2152,
-          "playedAt": "2026-10-28T03:06:40.703Z",
-          "rating": 7.8,
-          "grade": "A",
-          "remake": false,
-          "reason": "Lost with a solid KDA (10/4/2) and solid kill involvement (50% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
