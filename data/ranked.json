@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T23:49:00.576Z",
+  "fetchedAt": "2026-10-29T03:59:31.290Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -49,9 +49,9 @@
           "queueType": "RANKED_FLEX_SR",
           "label": "Flex",
           "tier": "DIAMOND",
-          "division": "III",
-          "leaguePoints": 48,
-          "winRate": 52
+          "division": "IV",
+          "leaguePoints": 80,
+          "winRate": 46
         },
         {
           "queueType": "RANKED_PREMADE_5x5",
