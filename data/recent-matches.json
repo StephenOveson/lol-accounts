@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T18:53:53.968Z",
+  "fetchedAt": "2026-10-29T23:11:09.131Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -252,56 +252,7 @@
       "docId": "mrs-deesenutz",
       "gameName": "Mrs Deesenutz",
       "tagLine": "NA1",
-      "matches": [
-        {
-          "matchId": "NA1_5149800830",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Zeri",
-          "role": "Bottom",
-          "win": false,
-          "kills": 3,
-          "deaths": 2,
-          "assists": 4,
-          "kda": 3.5,
-          "csPerMin": 7.6,
-          "killParticipation": 70,
-          "damagePerMin": 533,
-          "visionScore": 6,
-          "durationSeconds": 1064,
-          "playedAt": "2024-11-08T21:21:32.104Z",
-          "rating": 7.2,
-          "grade": "A",
-          "remake": false,
-          "reason": "Lost with a solid KDA (3/2/4) and constant kill involvement (70% of team kills). The standout was constant kill involvement, though neglected vision held the grade back.",
-          "tips": [
-            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
-          ]
-        },
-        {
-          "matchId": "NA1_5149797912",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Zeri",
-          "role": "Bottom",
-          "win": true,
-          "kills": 0,
-          "deaths": 0,
-          "assists": 0,
-          "kda": 0,
-          "csPerMin": 0,
-          "killParticipation": 0,
-          "damagePerMin": 0,
-          "visionScore": 0,
-          "durationSeconds": 129,
-          "playedAt": "2024-11-08T20:58:07.274Z",
-          "rating": null,
-          "grade": null,
-          "remake": true,
-          "reason": "Game ended in the first few minutes (remake or early disconnect) — not enough played to grade.",
-          "tips": []
-        }
-      ]
+      "matches": []
     },
     {
       "docId": "spiritb4ker",
