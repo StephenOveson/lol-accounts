@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T12:31:24.368Z",
+  "fetchedAt": "2026-10-30T18:30:03.108Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5670188506",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Yone",
+          "role": "Top",
+          "win": true,
+          "kills": 7,
+          "deaths": 5,
+          "assists": 7,
+          "kda": 2.8,
+          "csPerMin": 7.1,
+          "killParticipation": 33,
+          "damagePerMin": 1299,
+          "visionScore": 20,
+          "durationSeconds": 1845,
+          "playedAt": "2026-10-30T17:13:31.190Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (7/5/7) and middling kill involvement (33% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5669991845",
           "queueId": 1750,
           "mode": "Queue 1750",
@@ -136,31 +161,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with a solid KDA (3/2/6) and middling kill involvement (33% of team kills).",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5669915773",
-          "queueId": 3130,
-          "mode": "Queue 3130",
-          "championName": "Darius",
-          "role": "Top",
-          "win": false,
-          "kills": 6,
-          "deaths": 6,
-          "assists": 7,
-          "kda": 2.17,
-          "csPerMin": 7.6,
-          "killParticipation": 50,
-          "damagePerMin": 598,
-          "visionScore": 35,
-          "durationSeconds": 2235,
-          "playedAt": "2026-10-30T03:29:15.898Z",
-          "rating": 6.4,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with an even KDA (6/6/7) and solid kill involvement (50% of team kills).",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
