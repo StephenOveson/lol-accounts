@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T02:10:45.532Z",
+  "fetchedAt": "2026-10-31T09:27:22.271Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5670619959",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Gangplank",
+          "role": "Top",
+          "win": false,
+          "kills": 6,
+          "deaths": 8,
+          "assists": 2,
+          "kda": 1,
+          "csPerMin": 7.9,
+          "killParticipation": 32,
+          "damagePerMin": 993,
+          "visionScore": 23,
+          "durationSeconds": 1839,
+          "playedAt": "2026-10-31T05:02:39.206Z",
+          "rating": 6.1,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with a rough KDA (6/8/2) and middling kill involvement (32% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
+          "matchId": "NA1_5670582928",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Camille",
+          "role": "Top",
+          "win": false,
+          "kills": 6,
+          "deaths": 8,
+          "assists": 8,
+          "kda": 1.75,
+          "csPerMin": 8.1,
+          "killParticipation": 36,
+          "damagePerMin": 1017,
+          "visionScore": 40,
+          "durationSeconds": 2098,
+          "playedAt": "2026-10-31T04:25:52.726Z",
+          "rating": 6.9,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with an even KDA (6/8/8) and middling kill involvement (36% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5670326781",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -113,54 +163,6 @@
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
-        },
-        {
-          "matchId": "NA1_5670304843",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Yone",
-          "role": "Top",
-          "win": true,
-          "kills": 6,
-          "deaths": 3,
-          "assists": 8,
-          "kda": 4.67,
-          "csPerMin": 7.7,
-          "killParticipation": 31,
-          "damagePerMin": 778,
-          "visionScore": 16,
-          "durationSeconds": 1568,
-          "playedAt": "2026-10-30T21:23:41.021Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (6/3/8) and middling kill involvement (31% of team kills).",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5670296037",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Caitlyn",
-          "role": "Bottom",
-          "win": true,
-          "kills": 0,
-          "deaths": 1,
-          "assists": 1,
-          "kda": 0,
-          "csPerMin": 0,
-          "killParticipation": 0,
-          "damagePerMin": 0,
-          "visionScore": 0,
-          "durationSeconds": 88,
-          "playedAt": "2026-10-30T20:53:31.987Z",
-          "rating": null,
-          "grade": null,
-          "remake": true,
-          "reason": "Game ended in the first few minutes (remake or early disconnect) — not enough played to grade.",
-          "tips": []
         }
       ]
     },
