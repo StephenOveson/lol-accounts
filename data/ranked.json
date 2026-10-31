@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T14:13:58.823Z",
+  "fetchedAt": "2026-10-31T19:00:42.501Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -108,16 +108,16 @@
       "tagLine": "NA1",
       "tier": "DIAMOND",
       "division": "II",
-      "leaguePoints": 82,
-      "winRate": 62,
+      "leaguePoints": 93,
+      "winRate": 61,
       "ranks": [
         {
           "queueType": "RANKED_SOLO_5x5",
           "label": "Solo/Duo",
           "tier": "DIAMOND",
           "division": "II",
-          "leaguePoints": 82,
-          "winRate": 62
+          "leaguePoints": 93,
+          "winRate": 61
         }
       ]
     }
