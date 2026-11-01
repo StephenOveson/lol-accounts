@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T18:23:42.678Z",
+  "fetchedAt": "2026-11-01T22:39:47.940Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5671575575",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Ashe",
+          "role": "Bottom",
+          "win": false,
+          "kills": 10,
+          "deaths": 8,
+          "assists": 14,
+          "kda": 3,
+          "csPerMin": 8.8,
+          "killParticipation": 63,
+          "damagePerMin": 848,
+          "visionScore": 42,
+          "durationSeconds": 2619,
+          "playedAt": "2026-11-01T20:38:10.124Z",
+          "rating": 8,
+          "grade": "A",
+          "remake": false,
+          "reason": "Lost with a solid KDA (10/8/14) and solid kill involvement (63% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5670931070",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -137,31 +162,6 @@
           "reason": "Lost with a rough KDA (6/8/2) and middling kill involvement (32% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
-          ]
-        },
-        {
-          "matchId": "NA1_5670582928",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Camille",
-          "role": "Top",
-          "win": false,
-          "kills": 6,
-          "deaths": 8,
-          "assists": 8,
-          "kda": 1.75,
-          "csPerMin": 8.1,
-          "killParticipation": 36,
-          "damagePerMin": 1017,
-          "visionScore": 40,
-          "durationSeconds": 2098,
-          "playedAt": "2026-10-31T04:25:52.726Z",
-          "rating": 6.9,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with an even KDA (6/8/8) and middling kill involvement (36% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
@@ -342,6 +342,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5671562039",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Ambessa",
+          "role": "Top",
+          "win": true,
+          "kills": 7,
+          "deaths": 2,
+          "assists": 8,
+          "kda": 7.5,
+          "csPerMin": 8,
+          "killParticipation": 47,
+          "damagePerMin": 847,
+          "visionScore": 22,
+          "durationSeconds": 1567,
+          "playedAt": "2026-11-01T19:41:02.152Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (7/2/8) and solid kill involvement (47% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5671309754",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -390,31 +415,6 @@
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
             "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5670905985",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Gangplank",
-          "role": "Top",
-          "win": true,
-          "kills": 15,
-          "deaths": 8,
-          "assists": 15,
-          "kda": 3.75,
-          "csPerMin": 8.1,
-          "killParticipation": 48,
-          "damagePerMin": 1146,
-          "visionScore": 43,
-          "durationSeconds": 2757,
-          "playedAt": "2026-10-31T19:29:49.404Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (15/8/15) and solid kill involvement (48% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
