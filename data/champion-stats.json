@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-25T13:20:31.583Z",
+  "fetchedAt": "2026-11-01T15:26:17.506Z",
   "seasonStart": "2026-01-01T00:00:00.000Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
       "gameName": "DJ Foehammer",
       "tagLine": "NA1",
-      "matchesAnalyzed": 21,
+      "matchesAnalyzed": 24,
       "topChampions": [
         {
           "championName": "Ezreal",
@@ -37,9 +37,9 @@
       "topChampions": [
         {
           "championName": "Ambessa",
-          "games": 12,
-          "wins": 8,
-          "winRate": 67
+          "games": 10,
+          "wins": 6,
+          "winRate": 60
         },
         {
           "championName": "Gnar",
@@ -49,9 +49,9 @@
         },
         {
           "championName": "Rumble",
-          "games": 4,
-          "wins": 2,
-          "winRate": 50
+          "games": 5,
+          "wins": 1,
+          "winRate": 20
         }
       ],
       "mainRole": "Top"
@@ -107,24 +107,24 @@
       "topChampions": [
         {
           "championName": "Galio",
-          "games": 17,
-          "wins": 10,
-          "winRate": 59
-        },
-        {
-          "championName": "Xerath",
-          "games": 4,
-          "wins": 2,
+          "games": 14,
+          "wins": 7,
           "winRate": 50
         },
         {
+          "championName": "Ambessa",
+          "games": 5,
+          "wins": 5,
+          "winRate": 100
+        },
+        {
           "championName": "Yone",
-          "games": 3,
-          "wins": 2,
-          "winRate": 67
+          "games": 4,
+          "wins": 3,
+          "winRate": 75
         }
       ],
-      "mainRole": "Mid"
+      "mainRole": "Top"
     }
   ]
 }
