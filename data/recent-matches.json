@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T02:14:59.887Z",
+  "fetchedAt": "2026-11-02T10:47:24.921Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,57 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5671906624",
+          "queueId": 1750,
+          "mode": "Queue 1750",
+          "championName": "Rakan",
+          "role": null,
+          "win": true,
+          "kills": 1,
+          "deaths": 7,
+          "assists": 16,
+          "kda": 2.43,
+          "csPerMin": 0,
+          "killParticipation": 18,
+          "damagePerMin": 665,
+          "visionScore": 0,
+          "durationSeconds": 1507,
+          "playedAt": "2026-11-02T03:30:15.491Z",
+          "rating": 8.7,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (1/7/16) and little kill involvement (18% of team kills). Little kill involvement held the grade back.",
+          "tips": [
+            "Group with teammates for fights and objectives instead of playing them out solo.",
+            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
+          ]
+        },
+        {
+          "matchId": "NA1_5671868236",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Zaahen",
+          "role": "Top",
+          "win": false,
+          "kills": 9,
+          "deaths": 8,
+          "assists": 6,
+          "kda": 1.88,
+          "csPerMin": 6.1,
+          "killParticipation": 38,
+          "damagePerMin": 1248,
+          "visionScore": 31,
+          "durationSeconds": 2003,
+          "playedAt": "2026-11-02T02:52:42.466Z",
+          "rating": 6.4,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with an even KDA (9/8/6) and middling kill involvement (38% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5671575575",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -112,56 +163,6 @@
           "reason": "Lost with a solid KDA (10/8/14) and solid kill involvement (63% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5670931070",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Shen",
-          "role": "Top",
-          "win": true,
-          "kills": 8,
-          "deaths": 3,
-          "assists": 13,
-          "kda": 7,
-          "csPerMin": 7,
-          "killParticipation": 55,
-          "damagePerMin": 625,
-          "visionScore": 29,
-          "durationSeconds": 2110,
-          "playedAt": "2026-10-31T20:10:49.151Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an excellent KDA (8/3/13) and solid kill involvement (55% of team kills). An excellent KDA carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5670619959",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Gangplank",
-          "role": "Top",
-          "win": false,
-          "kills": 6,
-          "deaths": 8,
-          "assists": 2,
-          "kda": 1,
-          "csPerMin": 7.9,
-          "killParticipation": 32,
-          "damagePerMin": 993,
-          "visionScore": 23,
-          "durationSeconds": 1839,
-          "playedAt": "2026-10-31T05:02:39.206Z",
-          "rating": 6.1,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (6/8/2) and middling kill involvement (32% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
