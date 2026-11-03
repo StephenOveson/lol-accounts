@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T02:50:47.211Z",
+  "fetchedAt": "2026-11-03T10:39:25.246Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -343,6 +343,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5672538064",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Zaahen",
+          "role": "Top",
+          "win": true,
+          "kills": 6,
+          "deaths": 6,
+          "assists": 5,
+          "kda": 1.83,
+          "csPerMin": 6.7,
+          "killParticipation": 32,
+          "damagePerMin": 865,
+          "visionScore": 26,
+          "durationSeconds": 1634,
+          "playedAt": "2026-11-03T03:21:42.299Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (6/6/5) and middling kill involvement (32% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5672357845",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -391,29 +416,6 @@
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
-        },
-        {
-          "matchId": "NA1_5672330806",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Ambessa",
-          "role": "Top",
-          "win": false,
-          "kills": 0,
-          "deaths": 0,
-          "assists": 0,
-          "kda": 0,
-          "csPerMin": 0,
-          "killParticipation": 0,
-          "damagePerMin": 0,
-          "visionScore": 0,
-          "durationSeconds": 69,
-          "playedAt": "2026-11-02T22:06:44.087Z",
-          "rating": null,
-          "grade": null,
-          "remake": true,
-          "reason": "Game ended in the first few minutes (remake or early disconnect) — not enough played to grade.",
-          "tips": []
         }
       ]
     }
