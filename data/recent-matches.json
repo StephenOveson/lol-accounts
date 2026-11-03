@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T18:19:04.757Z",
+  "fetchedAt": "2026-11-03T23:55:25.667Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5672959924",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Yone",
+          "role": "Top",
+          "win": true,
+          "kills": 11,
+          "deaths": 7,
+          "assists": 6,
+          "kda": 2.43,
+          "csPerMin": 8,
+          "killParticipation": 34,
+          "damagePerMin": 1131,
+          "visionScore": 24,
+          "durationSeconds": 1960,
+          "playedAt": "2026-11-03T22:26:32.416Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (11/7/6) and middling kill involvement (34% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5672509214",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -137,32 +162,6 @@
           "reason": "Won with an excellent KDA (11/1/7) and solid kill involvement (60% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5671906624",
-          "queueId": 1750,
-          "mode": "Queue 1750",
-          "championName": "Rakan",
-          "role": null,
-          "win": true,
-          "kills": 1,
-          "deaths": 7,
-          "assists": 16,
-          "kda": 2.43,
-          "csPerMin": 0,
-          "killParticipation": 18,
-          "damagePerMin": 665,
-          "visionScore": 0,
-          "durationSeconds": 1507,
-          "playedAt": "2026-11-02T03:30:15.491Z",
-          "rating": 8.7,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (1/7/16) and little kill involvement (18% of team kills). Little kill involvement held the grade back.",
-          "tips": [
-            "Group with teammates for fights and objectives instead of playing them out solo.",
-            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
           ]
         }
       ]
