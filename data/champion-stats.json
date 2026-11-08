@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T15:26:17.506Z",
+  "fetchedAt": "2026-11-08T15:32:11.308Z",
   "seasonStart": "2026-01-01T00:00:00.000Z",
   "accounts": [
     {
@@ -36,22 +36,22 @@
       "matchesAnalyzed": 50,
       "topChampions": [
         {
-          "championName": "Ambessa",
-          "games": 10,
-          "wins": 6,
-          "winRate": 60
-        },
-        {
           "championName": "Gnar",
-          "games": 10,
-          "wins": 6,
-          "winRate": 60
+          "games": 11,
+          "wins": 7,
+          "winRate": 64
         },
         {
-          "championName": "Rumble",
+          "championName": "Ambessa",
+          "games": 6,
+          "wins": 4,
+          "winRate": 67
+        },
+        {
+          "championName": "Volibear",
           "games": 5,
-          "wins": 1,
-          "winRate": 20
+          "wins": 3,
+          "winRate": 60
         }
       ],
       "mainRole": "Top"
@@ -106,22 +106,22 @@
       "matchesAnalyzed": 50,
       "topChampions": [
         {
+          "championName": "Ambessa",
+          "games": 11,
+          "wins": 8,
+          "winRate": 73
+        },
+        {
           "championName": "Galio",
-          "games": 14,
-          "wins": 7,
+          "games": 8,
+          "wins": 4,
           "winRate": 50
         },
         {
-          "championName": "Ambessa",
-          "games": 5,
-          "wins": 5,
-          "winRate": 100
-        },
-        {
           "championName": "Yone",
-          "games": 4,
-          "wins": 3,
-          "winRate": 75
+          "games": 7,
+          "wins": 5,
+          "winRate": 71
         }
       ],
       "mainRole": "Top"
