@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T21:03:53.745Z",
+  "fetchedAt": "2026-11-09T01:32:27.600Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -342,6 +342,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5676118736",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Ambessa",
+          "role": "Top",
+          "win": true,
+          "kills": 17,
+          "deaths": 6,
+          "assists": 6,
+          "kda": 3.83,
+          "csPerMin": 7.4,
+          "killParticipation": 50,
+          "damagePerMin": 1348,
+          "visionScore": 34,
+          "durationSeconds": 2143,
+          "playedAt": "2026-11-08T21:10:12.635Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (17/6/6) and solid kill involvement (50% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5675837966",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -391,31 +416,6 @@
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
             "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
-          ]
-        },
-        {
-          "matchId": "NA1_5675374458",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Ambessa",
-          "role": "Top",
-          "win": true,
-          "kills": 4,
-          "deaths": 6,
-          "assists": 5,
-          "kda": 1.5,
-          "csPerMin": 5.9,
-          "killParticipation": 19,
-          "damagePerMin": 457,
-          "visionScore": 23,
-          "durationSeconds": 1473,
-          "playedAt": "2026-11-07T19:41:36.416Z",
-          "rating": 9.5,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an even KDA (4/6/5) and little kill involvement (19% of team kills). Little kill involvement held the grade back.",
-          "tips": [
-            "Group with teammates for fights and objectives instead of playing them out solo."
           ]
         }
       ]
