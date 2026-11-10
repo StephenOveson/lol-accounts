@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T12:21:41.784Z",
+  "fetchedAt": "2026-11-10T20:22:06.644Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5677305447",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Kalista",
+          "role": "Bottom",
+          "win": true,
+          "kills": 11,
+          "deaths": 2,
+          "assists": 5,
+          "kda": 8,
+          "csPerMin": 9.4,
+          "killParticipation": 53,
+          "damagePerMin": 915,
+          "visionScore": 10,
+          "durationSeconds": 926,
+          "playedAt": "2026-11-10T19:42:16.485Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (11/2/5) and solid kill involvement (53% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5677106865",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -137,31 +162,6 @@
           "reason": "Won with a solid KDA (2/0/1) and little kill involvement (14% of team kills). The standout was excellent farm, though little kill involvement held the grade back.",
           "tips": [
             "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5676969861",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "Kayn",
-          "role": "Top",
-          "win": false,
-          "kills": 5,
-          "deaths": 5,
-          "assists": 5,
-          "kda": 2,
-          "csPerMin": 9.4,
-          "killParticipation": 42,
-          "damagePerMin": 670,
-          "visionScore": 35,
-          "durationSeconds": 1991,
-          "playedAt": "2026-11-10T03:20:56.586Z",
-          "rating": 6.5,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with an even KDA (5/5/5) and middling kill involvement (42% of team kills). Excellent farm carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
