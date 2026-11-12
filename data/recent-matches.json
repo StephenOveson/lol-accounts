@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T17:48:00.459Z",
+  "fetchedAt": "2026-11-12T00:20:21.063Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,32 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5677946216",
+          "queueId": 1740,
+          "mode": "Queue 1740",
+          "championName": "Neeko",
+          "role": null,
+          "win": true,
+          "kills": 32,
+          "deaths": 5,
+          "assists": 7,
+          "kda": 7.8,
+          "csPerMin": 0,
+          "killParticipation": 34,
+          "damagePerMin": 4201,
+          "visionScore": 0,
+          "durationSeconds": 1663,
+          "playedAt": "2026-11-11T20:33:21.994Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (32/5/7) and middling kill involvement (34% of team kills). The standout was an excellent KDA, though farm that fell behind held the grade back.",
+          "tips": [
+            "Focus on last-hitting between skirmishes — every ~10 CS is roughly a kill's worth of gold.",
+            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
+          ]
+        },
+        {
           "matchId": "NA1_5677723466",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -137,31 +163,6 @@
           "reason": "Won with an excellent KDA (15/4/11) and constant kill involvement (65% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5677672868",
-          "queueId": 440,
-          "mode": "Ranked Flex",
-          "championName": "Shyvana",
-          "role": "Top",
-          "win": false,
-          "kills": 6,
-          "deaths": 10,
-          "assists": 4,
-          "kda": 1,
-          "csPerMin": 6.6,
-          "killParticipation": 36,
-          "damagePerMin": 756,
-          "visionScore": 40,
-          "durationSeconds": 2047,
-          "playedAt": "2026-11-11T05:28:05.224Z",
-          "rating": 5.7,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with a rough KDA (6/10/4) and middling kill involvement (36% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
           ]
         }
       ]
