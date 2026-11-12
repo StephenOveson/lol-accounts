@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T00:20:21.063Z",
+  "fetchedAt": "2026-11-12T08:05:20.317Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5678140059",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Rumble",
+          "role": "Top",
+          "win": true,
+          "kills": 5,
+          "deaths": 2,
+          "assists": 12,
+          "kda": 8.5,
+          "csPerMin": 8.4,
+          "killParticipation": 52,
+          "damagePerMin": 925,
+          "visionScore": 35,
+          "durationSeconds": 1730,
+          "playedAt": "2026-11-12T02:15:45.513Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an excellent KDA (5/2/12) and solid kill involvement (52% of team kills). An excellent KDA carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5677946216",
           "queueId": 1740,
           "mode": "Queue 1740",
@@ -136,31 +161,6 @@
           "grade": "B",
           "remake": false,
           "reason": "Lost with an even KDA (5/7/8) and middling kill involvement (45% of team kills).",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5677701942",
-          "queueId": 440,
-          "mode": "Ranked Flex",
-          "championName": "Gnar",
-          "role": "Top",
-          "win": true,
-          "kills": 15,
-          "deaths": 4,
-          "assists": 11,
-          "kda": 6.5,
-          "csPerMin": 8.2,
-          "killParticipation": 65,
-          "damagePerMin": 1588,
-          "visionScore": 18,
-          "durationSeconds": 1764,
-          "playedAt": "2026-11-11T06:02:02.745Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an excellent KDA (15/4/11) and constant kill involvement (65% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
