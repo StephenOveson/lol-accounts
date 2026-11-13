@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T14:27:42.941Z",
+  "fetchedAt": "2026-11-13T21:19:53.934Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5679142877",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Yone",
+          "role": "Top",
+          "win": true,
+          "kills": 1,
+          "deaths": 1,
+          "assists": 2,
+          "kda": 3,
+          "csPerMin": 9.7,
+          "killParticipation": 12,
+          "damagePerMin": 599,
+          "visionScore": 12,
+          "durationSeconds": 1106,
+          "playedAt": "2026-11-13T21:11:12.983Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (1/1/2) and little kill involvement (12% of team kills). The standout was excellent farm, though little kill involvement held the grade back.",
+          "tips": [
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
+        },
+        {
           "matchId": "NA1_5678756729",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -137,32 +162,6 @@
           "reason": "Won with an excellent KDA (5/2/12) and solid kill involvement (52% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5677946216",
-          "queueId": 1740,
-          "mode": "Queue 1740",
-          "championName": "Neeko",
-          "role": null,
-          "win": true,
-          "kills": 32,
-          "deaths": 5,
-          "assists": 7,
-          "kda": 7.8,
-          "csPerMin": 0,
-          "killParticipation": 34,
-          "damagePerMin": 4201,
-          "visionScore": 0,
-          "durationSeconds": 1663,
-          "playedAt": "2026-11-11T20:33:21.994Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an excellent KDA (32/5/7) and middling kill involvement (34% of team kills). The standout was an excellent KDA, though farm that fell behind held the grade back.",
-          "tips": [
-            "Focus on last-hitting between skirmishes — every ~10 CS is roughly a kill's worth of gold.",
-            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
           ]
         }
       ]
