@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T23:24:26.500Z",
+  "fetchedAt": "2026-11-13T05:58:15.235Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5678756729",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Sion",
+          "role": "Top",
+          "win": false,
+          "kills": 4,
+          "deaths": 4,
+          "assists": 4,
+          "kda": 2,
+          "csPerMin": 7.9,
+          "killParticipation": 47,
+          "damagePerMin": 860,
+          "visionScore": 20,
+          "durationSeconds": 1465,
+          "playedAt": "2026-11-13T03:18:12.993Z",
+          "rating": 7,
+          "grade": "A",
+          "remake": false,
+          "reason": "Lost with an even KDA (4/4/4) and solid kill involvement (47% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5678140059",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -138,31 +163,6 @@
           "tips": [
             "Focus on last-hitting between skirmishes — every ~10 CS is roughly a kill's worth of gold.",
             "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
-          ]
-        },
-        {
-          "matchId": "NA1_5677723466",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Ambessa",
-          "role": "Top",
-          "win": false,
-          "kills": 5,
-          "deaths": 7,
-          "assists": 8,
-          "kda": 1.86,
-          "csPerMin": 7.1,
-          "killParticipation": 45,
-          "damagePerMin": 777,
-          "visionScore": 35,
-          "durationSeconds": 2637,
-          "playedAt": "2026-11-11T06:53:32.790Z",
-          "rating": 6.4,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with an even KDA (5/7/8) and middling kill involvement (45% of team kills).",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
