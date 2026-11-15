@@ -1,39 +1,39 @@
 {
-  "fetchedAt": "2026-11-01T17:31:27.932Z",
+  "fetchedAt": "2026-11-15T18:22:26.237Z",
   "queue": "RANKED_SOLO_5x5",
   "platform": "na1",
   "ranks": {
     "EMERALD": {
       "key": "EMERALD",
       "sampleSize": 10,
-      "playersWithData": 4,
-      "matchesAnalyzed": 6,
+      "playersWithData": 6,
+      "matchesAnalyzed": 13,
       "metrics": {
-        "kda": 3.4,
-        "killParticipation": 31.02,
-        "damagePerMin": 845.82,
-        "csPerMin": 7.48,
+        "kda": 4.05,
+        "killParticipation": 41.11,
+        "damagePerMin": 950.94,
+        "csPerMin": 7.79,
         "visionPerMin": 0.81
       },
       "roles": {
         "Top": {
-          "matchesAnalyzed": 4,
+          "matchesAnalyzed": 6,
           "metrics": {
-            "kda": 4.46,
-            "killParticipation": 31.29,
-            "damagePerMin": 1009.91,
-            "csPerMin": 8.11,
-            "visionPerMin": 0.93
+            "kda": 3.91,
+            "killParticipation": 32.18,
+            "damagePerMin": 819.02,
+            "csPerMin": 7.54,
+            "visionPerMin": 0.97
           }
         },
         "Bottom": {
-          "matchesAnalyzed": 2,
+          "matchesAnalyzed": 7,
           "metrics": {
-            "kda": 1.28,
-            "killParticipation": 30.47,
-            "damagePerMin": 517.66,
-            "csPerMin": 6.22,
-            "visionPerMin": 0.56
+            "kda": 4.18,
+            "killParticipation": 48.77,
+            "damagePerMin": 1064.02,
+            "csPerMin": 8.01,
+            "visionPerMin": 0.67
           }
         }
       }
@@ -41,34 +41,34 @@
     "DIAMOND": {
       "key": "DIAMOND",
       "sampleSize": 10,
-      "playersWithData": 6,
-      "matchesAnalyzed": 15,
+      "playersWithData": 5,
+      "matchesAnalyzed": 10,
       "metrics": {
-        "kda": 3.11,
-        "killParticipation": 42.41,
-        "damagePerMin": 900.7,
-        "csPerMin": 7.64,
-        "visionPerMin": 0.84
+        "kda": 3.68,
+        "killParticipation": 48.7,
+        "damagePerMin": 799.26,
+        "csPerMin": 7.2,
+        "visionPerMin": 0.83
       },
       "roles": {
         "Top": {
-          "matchesAnalyzed": 9,
+          "matchesAnalyzed": 4,
           "metrics": {
-            "kda": 2.39,
-            "killParticipation": 33.03,
-            "damagePerMin": 749,
-            "csPerMin": 7,
-            "visionPerMin": 0.89
+            "kda": 4.01,
+            "killParticipation": 56.25,
+            "damagePerMin": 919.42,
+            "csPerMin": 6.95,
+            "visionPerMin": 0.81
           }
         },
         "Bottom": {
           "matchesAnalyzed": 6,
           "metrics": {
-            "kda": 4.19,
-            "killParticipation": 56.48,
-            "damagePerMin": 1128.26,
-            "csPerMin": 8.6,
-            "visionPerMin": 0.76
+            "kda": 3.46,
+            "killParticipation": 43.67,
+            "damagePerMin": 719.15,
+            "csPerMin": 7.36,
+            "visionPerMin": 0.84
           }
         }
       }
@@ -76,24 +76,34 @@
     "MASTER": {
       "key": "MASTER",
       "sampleSize": 10,
-      "playersWithData": 3,
-      "matchesAnalyzed": 9,
+      "playersWithData": 6,
+      "matchesAnalyzed": 12,
       "metrics": {
-        "kda": 2.62,
-        "killParticipation": 34.3,
-        "damagePerMin": 782.19,
+        "kda": 2.81,
+        "killParticipation": 44.01,
+        "damagePerMin": 920.06,
         "csPerMin": 7.72,
-        "visionPerMin": 0.77
+        "visionPerMin": 0.76
       },
       "roles": {
         "Top": {
-          "matchesAnalyzed": 9,
+          "matchesAnalyzed": 7,
           "metrics": {
-            "kda": 2.62,
-            "killParticipation": 34.3,
-            "damagePerMin": 782.19,
-            "csPerMin": 7.72,
-            "visionPerMin": 0.77
+            "kda": 3.4,
+            "killParticipation": 44.45,
+            "damagePerMin": 728.44,
+            "csPerMin": 7.42,
+            "visionPerMin": 0.83
+          }
+        },
+        "Bottom": {
+          "matchesAnalyzed": 5,
+          "metrics": {
+            "kda": 1.98,
+            "killParticipation": 43.41,
+            "damagePerMin": 1188.32,
+            "csPerMin": 8.13,
+            "visionPerMin": 0.67
           }
         }
       }
