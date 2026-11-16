@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T21:35:05.038Z",
+  "fetchedAt": "2026-11-16T01:42:23.957Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -343,6 +343,58 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5680580155",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Jax",
+          "role": "Top",
+          "win": false,
+          "kills": 0,
+          "deaths": 8,
+          "assists": 0,
+          "kda": 0,
+          "csPerMin": 5.9,
+          "killParticipation": 0,
+          "damagePerMin": 437,
+          "visionScore": 12,
+          "durationSeconds": 1136,
+          "playedAt": "2026-11-16T00:42:08.889Z",
+          "rating": 3,
+          "grade": "D",
+          "remake": false,
+          "reason": "Lost with a rough KDA (0/8/0) and little kill involvement (0% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
+        },
+        {
+          "matchId": "NA1_5680554392",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Yorick",
+          "role": "Top",
+          "win": false,
+          "kills": 0,
+          "deaths": 6,
+          "assists": 1,
+          "kda": 0.17,
+          "csPerMin": 7.6,
+          "killParticipation": 6,
+          "damagePerMin": 676,
+          "visionScore": 23,
+          "durationSeconds": 1650,
+          "playedAt": "2026-11-16T00:17:41.930Z",
+          "rating": 4.4,
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a rough KDA (0/6/1) and little kill involvement (6% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
+        },
+        {
           "matchId": "NA1_5676118736",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -365,58 +417,6 @@
           "reason": "Won with a solid KDA (17/6/6) and solid kill involvement (50% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5675837966",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Gangplank",
-          "role": "Top",
-          "win": false,
-          "kills": 3,
-          "deaths": 5,
-          "assists": 1,
-          "kda": 0.8,
-          "csPerMin": 9.4,
-          "killParticipation": 19,
-          "damagePerMin": 583,
-          "visionScore": 15,
-          "durationSeconds": 1462,
-          "playedAt": "2026-11-08T06:43:30.316Z",
-          "rating": 4.8,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (3/5/1) and little kill involvement (19% of team kills). The standout was excellent farm, though a rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5675805694",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Yone",
-          "role": "Top",
-          "win": false,
-          "kills": 2,
-          "deaths": 5,
-          "assists": 4,
-          "kda": 1.2,
-          "csPerMin": 6,
-          "killParticipation": 29,
-          "damagePerMin": 456,
-          "visionScore": 9,
-          "durationSeconds": 1443,
-          "playedAt": "2026-11-08T06:13:25.161Z",
-          "rating": 4.3,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (2/5/4) and middling kill involvement (29% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Buy and place control wards more often — aim for roughly one ward's worth of vision per minute."
           ]
         }
       ]
