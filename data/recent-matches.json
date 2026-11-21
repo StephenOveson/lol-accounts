@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T17:15:00.966Z",
+  "fetchedAt": "2026-11-21T22:57:17.293Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -343,6 +343,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5684132029",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Gnar",
+          "role": "Top",
+          "win": false,
+          "kills": 0,
+          "deaths": 5,
+          "assists": 1,
+          "kda": 0.2,
+          "csPerMin": 7,
+          "killParticipation": 33,
+          "damagePerMin": 468,
+          "visionScore": 12,
+          "durationSeconds": 929,
+          "playedAt": "2026-11-21T22:46:45.163Z",
+          "rating": 4.3,
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a rough KDA (0/5/1) and middling kill involvement (33% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
+          "matchId": "NA1_5684112222",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Gangplank",
+          "role": "Top",
+          "win": false,
+          "kills": 5,
+          "deaths": 4,
+          "assists": 9,
+          "kda": 3.5,
+          "csPerMin": 7.5,
+          "killParticipation": 54,
+          "damagePerMin": 1056,
+          "visionScore": 16,
+          "durationSeconds": 1434,
+          "playedAt": "2026-11-21T22:25:54.504Z",
+          "rating": 8,
+          "grade": "A",
+          "remake": false,
+          "reason": "Lost with a solid KDA (5/4/9) and solid kill involvement (54% of team kills). Elite damage output carried the grade.",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5680580155",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -366,57 +416,6 @@
           "tips": [
             "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
             "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5680554392",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Yorick",
-          "role": "Top",
-          "win": false,
-          "kills": 0,
-          "deaths": 6,
-          "assists": 1,
-          "kda": 0.17,
-          "csPerMin": 7.6,
-          "killParticipation": 6,
-          "damagePerMin": 676,
-          "visionScore": 23,
-          "durationSeconds": 1650,
-          "playedAt": "2026-11-16T00:17:41.930Z",
-          "rating": 4.4,
-          "grade": "C",
-          "remake": false,
-          "reason": "Lost with a rough KDA (0/6/1) and little kill involvement (6% of team kills). A rough KDA held the grade back.",
-          "tips": [
-            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
-            "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5676118736",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Ambessa",
-          "role": "Top",
-          "win": true,
-          "kills": 17,
-          "deaths": 6,
-          "assists": 6,
-          "kda": 3.83,
-          "csPerMin": 7.4,
-          "killParticipation": 50,
-          "damagePerMin": 1348,
-          "visionScore": 34,
-          "durationSeconds": 2143,
-          "playedAt": "2026-11-08T21:10:12.635Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (17/6/6) and solid kill involvement (50% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
