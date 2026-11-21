@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T19:50:44.061Z",
+  "fetchedAt": "2026-11-21T01:14:49.975Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,57 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5683480126",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Gangplank",
+          "role": "Top",
+          "win": false,
+          "kills": 5,
+          "deaths": 6,
+          "assists": 0,
+          "kda": 0.83,
+          "csPerMin": 9.4,
+          "killParticipation": 50,
+          "damagePerMin": 1199,
+          "visionScore": 13,
+          "durationSeconds": 1465,
+          "playedAt": "2026-11-20T22:58:21.692Z",
+          "rating": 6.3,
+          "grade": "B",
+          "remake": false,
+          "reason": "Lost with a rough KDA (5/6/0) and solid kill involvement (50% of team kills). The standout was elite damage output, though a rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after."
+          ]
+        },
+        {
+          "matchId": "NA1_5683402285",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Akali",
+          "role": "Top",
+          "win": false,
+          "kills": 3,
+          "deaths": 8,
+          "assists": 1,
+          "kda": 0.5,
+          "csPerMin": 5.8,
+          "killParticipation": 21,
+          "damagePerMin": 596,
+          "visionScore": 24,
+          "durationSeconds": 1572,
+          "playedAt": "2026-11-20T19:56:40.181Z",
+          "rating": 4.3,
+          "grade": "C",
+          "remake": false,
+          "reason": "Lost with a rough KDA (3/8/1) and little kill involvement (21% of team kills). A rough KDA held the grade back.",
+          "tips": [
+            "Look for safer trades and disengage from fights you're likely to lose before they happen, rather than after.",
+            "Group with teammates for fights and objectives instead of playing them out solo."
+          ]
+        },
+        {
           "matchId": "NA1_5680804533",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -112,56 +163,6 @@
           "reason": "Won with an even KDA (2/4/6) and little kill involvement (24% of team kills). Little kill involvement held the grade back.",
           "tips": [
             "Group with teammates for fights and objectives instead of playing them out solo."
-          ]
-        },
-        {
-          "matchId": "NA1_5680450885",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Rumble",
-          "role": "Top",
-          "win": true,
-          "kills": 6,
-          "deaths": 2,
-          "assists": 3,
-          "kda": 4.5,
-          "csPerMin": 8.8,
-          "killParticipation": 33,
-          "damagePerMin": 932,
-          "visionScore": 25,
-          "durationSeconds": 1635,
-          "playedAt": "2026-11-15T21:19:59.525Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (6/2/3) and middling kill involvement (33% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5680402691",
-          "queueId": 420,
-          "mode": "Ranked Solo/Duo",
-          "championName": "Gnar",
-          "role": "Top",
-          "win": true,
-          "kills": 8,
-          "deaths": 4,
-          "assists": 4,
-          "kda": 3,
-          "csPerMin": 8.6,
-          "killParticipation": 34,
-          "damagePerMin": 845,
-          "visionScore": 30,
-          "durationSeconds": 1709,
-          "playedAt": "2026-11-15T20:13:50.871Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (8/4/4) and middling kill involvement (34% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
           ]
         }
       ]
