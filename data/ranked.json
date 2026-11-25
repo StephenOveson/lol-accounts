@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T02:54:26.481Z",
+  "fetchedAt": "2026-11-25T12:00:17.789Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -30,14 +30,6 @@
       "winRate": 56,
       "ranks": [
         {
-          "queueType": "RANKED_SOLO_5x5",
-          "label": "Solo/Duo",
-          "tier": "MASTER",
-          "division": "I",
-          "leaguePoints": 502,
-          "winRate": 56
-        },
-        {
           "queueType": "RANKED_FLEX_SR",
           "label": "Flex",
           "tier": "DIAMOND",
@@ -52,6 +44,14 @@
           "division": "III",
           "leaguePoints": 1,
           "winRate": 33
+        },
+        {
+          "queueType": "RANKED_SOLO_5x5",
+          "label": "Solo/Duo",
+          "tier": "MASTER",
+          "division": "I",
+          "leaguePoints": 502,
+          "winRate": 56
         },
         {
           "queueType": "RANKED_PREMADE_5x5",
@@ -106,17 +106,17 @@
       "docId": "grabpatch",
       "gameName": "grabpatch",
       "tagLine": "NA1",
-      "tier": "MASTER",
+      "tier": "DIAMOND",
       "division": "I",
-      "leaguePoints": 10,
+      "leaguePoints": 75,
       "winRate": 61,
       "ranks": [
         {
           "queueType": "RANKED_SOLO_5x5",
           "label": "Solo/Duo",
-          "tier": "MASTER",
+          "tier": "DIAMOND",
           "division": "I",
-          "leaguePoints": 10,
+          "leaguePoints": 75,
           "winRate": 61
         }
       ]
