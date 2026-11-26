@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T22:16:35.625Z",
+  "fetchedAt": "2026-11-26T04:49:25.315Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,56 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5686700806",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Ambessa",
+          "role": "Top",
+          "win": true,
+          "kills": 4,
+          "deaths": 4,
+          "assists": 7,
+          "kda": 2.75,
+          "csPerMin": 7.1,
+          "killParticipation": 32,
+          "damagePerMin": 739,
+          "visionScore": 29,
+          "durationSeconds": 1827,
+          "playedAt": "2026-11-26T03:54:01.202Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (4/4/7) and middling kill involvement (32% of team kills).",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
+          "matchId": "NA1_5686660452",
+          "queueId": 420,
+          "mode": "Ranked Solo/Duo",
+          "championName": "Ambessa",
+          "role": "Top",
+          "win": true,
+          "kills": 3,
+          "deaths": 3,
+          "assists": 9,
+          "kda": 4,
+          "csPerMin": 7,
+          "killParticipation": 29,
+          "damagePerMin": 561,
+          "visionScore": 30,
+          "durationSeconds": 1916,
+          "playedAt": "2026-11-26T03:15:27.149Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with a solid KDA (3/3/9) and middling kill involvement (29% of team kills).",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5686498837",
           "queueId": 400,
           "mode": "Normal Draft",
@@ -110,56 +160,6 @@
           "grade": "B",
           "remake": false,
           "reason": "Lost with an even KDA (12/13/8) and solid kill involvement (50% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5686474310",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "TahmKench",
-          "role": "Top",
-          "win": true,
-          "kills": 6,
-          "deaths": 5,
-          "assists": 11,
-          "kda": 3.4,
-          "csPerMin": 5,
-          "killParticipation": 53,
-          "damagePerMin": 875,
-          "visionScore": 25,
-          "durationSeconds": 1743,
-          "playedAt": "2026-11-25T21:29:14.639Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with a solid KDA (6/5/11) and solid kill involvement (53% of team kills). Elite damage output carried the grade.",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5686456660",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "TahmKench",
-          "role": "Top",
-          "win": true,
-          "kills": 13,
-          "deaths": 1,
-          "assists": 3,
-          "kda": 16,
-          "csPerMin": 7.3,
-          "killParticipation": 59,
-          "damagePerMin": 1194,
-          "visionScore": 20,
-          "durationSeconds": 1550,
-          "playedAt": "2026-11-25T20:54:00.612Z",
-          "rating": 10,
-          "grade": "S",
-          "remake": false,
-          "reason": "Won with an excellent KDA (13/1/3) and solid kill involvement (59% of team kills). An excellent KDA carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
