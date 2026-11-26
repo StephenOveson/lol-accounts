@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T14:52:25.757Z",
+  "fetchedAt": "2026-11-26T23:38:05.064Z",
   "accounts": [
     {
       "docId": "dj-foehammer",
@@ -90,6 +90,31 @@
       "tagLine": "NA1",
       "matches": [
         {
+          "matchId": "NA1_5687049790",
+          "queueId": 400,
+          "mode": "Normal Draft",
+          "championName": "Tristana",
+          "role": "Bottom",
+          "win": true,
+          "kills": 6,
+          "deaths": 7,
+          "assists": 9,
+          "kda": 2.14,
+          "csPerMin": 7.5,
+          "killParticipation": 42,
+          "damagePerMin": 706,
+          "visionScore": 30,
+          "durationSeconds": 1866,
+          "playedAt": "2026-11-26T20:22:46.157Z",
+          "rating": 10,
+          "grade": "S",
+          "remake": false,
+          "reason": "Won with an even KDA (6/7/9) and middling kill involvement (42% of team kills).",
+          "tips": [
+            "Strong all-around performance — keep playing like this."
+          ]
+        },
+        {
           "matchId": "NA1_5686700806",
           "queueId": 420,
           "mode": "Ranked Solo/Duo",
@@ -135,31 +160,6 @@
           "grade": "S",
           "remake": false,
           "reason": "Won with a solid KDA (3/3/9) and middling kill involvement (29% of team kills).",
-          "tips": [
-            "Strong all-around performance — keep playing like this."
-          ]
-        },
-        {
-          "matchId": "NA1_5686498837",
-          "queueId": 400,
-          "mode": "Normal Draft",
-          "championName": "KogMaw",
-          "role": "Bottom",
-          "win": false,
-          "kills": 12,
-          "deaths": 13,
-          "assists": 8,
-          "kda": 1.54,
-          "csPerMin": 6.5,
-          "killParticipation": 50,
-          "damagePerMin": 1262,
-          "visionScore": 38,
-          "durationSeconds": 2325,
-          "playedAt": "2026-11-25T22:14:47.666Z",
-          "rating": 6.6,
-          "grade": "B",
-          "remake": false,
-          "reason": "Lost with an even KDA (12/13/8) and solid kill involvement (50% of team kills). Elite damage output carried the grade.",
           "tips": [
             "Strong all-around performance — keep playing like this."
           ]
